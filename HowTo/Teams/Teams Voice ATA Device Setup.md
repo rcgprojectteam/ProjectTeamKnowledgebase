@@ -1,7 +1,7 @@
 #knowledgebase  #teams #ATA #FAX #POTS #Analog #Phone
 
 # Onboarding Cisco Analog Telephone Adapter 190 Series Device.
-
+An analog telephone adapter (ATA) is a device for connecting traditional analog devices to a digital telephone system. In context of SIP GW, it connects these analog devices via SIP GW to Teams.
 
 # Header 1 Goal 1
 _A brief description on what the first goal is and/or information. **Make sure the text hugs the header in this format**_ 
