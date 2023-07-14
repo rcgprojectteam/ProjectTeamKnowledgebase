@@ -11,7 +11,7 @@ _A brief description on what the first goal is and/or information. **Make sure t
 In O365/TAC/Voice/Calling Policies
 1. Add a new calling policy - "Allow SIP calling".
 2. Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
-
+3. 
 
 ### References
 
