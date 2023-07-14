@@ -3,11 +3,8 @@
 # Onboarding Cisco Analog Telephone Adapter 190 Series Device.
 An analog telephone adapter (ATA) is a device for connecting traditional analog devices to a digital telephone system. In context of (SIP) Session Initiation Protocol (GW) Gate Way, it connects these analog devices via SIP GW to Microsoft Teams.
 
-# Header 1
-_A brief description on what the first goal is and/or information. **Make sure the text hugs the header in this format**_ 
-
-## Office 365 Tenant Configuration
-### Configure Teams Voice
+# Office 365 Tenant Configuration
+## Configure Teams Voice
 In O365/TAC/Voice/Calling Policies
 - Add a new calling policy - "Allow SIP calling".
 - Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
