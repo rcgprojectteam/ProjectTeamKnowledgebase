@@ -11,7 +11,6 @@ _A brief description on what the first goal is and/or information. **Make sure t
 In O365/TAC/Voice/Calling Policies
 - Add a new calling policy - "Allow SIP calling".
 - Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
-
 - Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
 - Make sure your user account has an Shared Device License.
 - IP Phone Policy where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
