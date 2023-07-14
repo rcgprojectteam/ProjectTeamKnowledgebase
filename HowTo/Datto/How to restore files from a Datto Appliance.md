@@ -1,4 +1,4 @@
-#knowledgebase  
+#knowledgebase  #Datto #restore
 
 # How to restore files from a Datto Appliance
 
