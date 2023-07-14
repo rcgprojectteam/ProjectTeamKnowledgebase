@@ -9,8 +9,17 @@
 # Revision Date: 
 # ~ Revision Notes ~
 # - Intial Development
-# Description: Used to get
+# Description: Used to get hardware information
 #-------------------------------------------------------------------------------------------------------------------------
+# - Hard Drive Information
 
+wmic diskdrive get model,serialnumber
 
+# - CPU Information
+
+wmic cpu get name
+
+# - All System Information
+
+systeminfo
 ```
