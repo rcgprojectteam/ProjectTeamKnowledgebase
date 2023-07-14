@@ -13,6 +13,8 @@ In O365/TAC/Voice/Calling Policies
 2. Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
 3. 
 
+
+
 ### References
 
 1. Configure SIP Gateway - https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure
