@@ -31,3 +31,4 @@ In O365/TAC/Voice/Calling Policies
 3. Cisco Forum Setup Thread - https://community.cisco.com/t5/webex-devices/cisco-ata-191-microsoft-teams-sip/m-p/4761129
 4. Cisco ATA 192 Multiplatform Analog Telephone Adapter, 2-Port Handset-to-Ethernet Adapter, 1-Year Limited Hardware Warranty (ATA192-3PW-K9) - https://www.amazon.com/Cisco-2-Port-Telephone-Adapter-Multiplatform/dp/B07BTSK3SS
 5. GitHub - SIP Gateway Analog Docs - https://github.com/darylhunter/SIPGatewayAnalogDocs/blob/main/Onboarding%20Cisco%20ATA%2019x%20with%20Microsoft%20SIP%20Gateway%20v10.31.22.pdf
+6. https://learn.microsoft.com/en-us/powershell/module/skype/set-csteamsipphonepolicy?view=skype-ps
