@@ -10,4 +10,5 @@ _A brief description on what the first goal is and/or information. **Make sure t
 _Initial description of or information regarding step1_
 
 ### References
-_If a step has multiple options, sub steps or any side notes use header 3_
+https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure
+https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-1/release_notes/at92_b_cisco-ata-191-and-192.html#task_D84DAFD51D92A2AADCCBAE3643F21DCD
