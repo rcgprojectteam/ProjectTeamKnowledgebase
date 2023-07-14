@@ -19,7 +19,7 @@ In O365/TAC/Voice/Calling Policies
 
 ## Licenses Needed:
 - Microsoft Teams Shared Devices - Enables the use of non-Teams Rooms shared devices with Microsoft Teams - From ‎$8.00‎ ‎licenses‎/month
-
+- Teams Phone with Calling Plan
 
 ### References
 
