@@ -1,4 +1,4 @@
-#knowledgebase  #teams #ATA #FAX #POTS 
+#knowledgebase  #teams #ATA #FAX #POTS #Analog #Phone
 
 # Document Description
 _Add a brief summary of what this document is going to cover._
