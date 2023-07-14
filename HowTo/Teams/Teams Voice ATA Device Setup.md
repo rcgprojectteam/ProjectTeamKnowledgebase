@@ -12,6 +12,5 @@ _Initial description of or information regarding step1_
 ### References
 
 1. Configure SIP Gateway - https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure
-https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-1/release_notes/at92_b_cisco-ata-191-and-192.html#task_D84DAFD51D92A2AADCCBAE3643F21DCD
-
-Cisco ATA 192 Multiplatform Analog Telephone Adapter, 2-Port Handset-to-Ethernet Adapter, 1-Year Limited Hardware Warranty (ATA192-3PW-K9) - https://www.amazon.com/Cisco-2-Port-Telephone-Adapter-Multiplatform/dp/B07BTSK3SS
+2. Cisco ATA 191 and 192 Analog Telephone Adapter Multiplatform Phones Release Notes for Firmware Release 11.1(0) - https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-1/release_notes/at92_b_cisco-ata-191-and-192.html#task_D84DAFD51D92A2AADCCBAE3643F21DCD
+3. Cisco ATA 192 Multiplatform Analog Telephone Adapter, 2-Port Handset-to-Ethernet Adapter, 1-Year Limited Hardware Warranty (ATA192-3PW-K9) - https://www.amazon.com/Cisco-2-Port-Telephone-Adapter-Multiplatform/dp/B07BTSK3SS
