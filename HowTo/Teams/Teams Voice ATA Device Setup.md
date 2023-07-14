@@ -9,9 +9,8 @@ _A brief description on what the first goal is and/or information. **Make sure t
 ## Office 365 Tenant Configuration
 ### Configure Teams Voice
 In O365/TAC/Voice/Calling Policies
-1. Add a new calling policy - "Allow SIP calling".
-2. Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
-3. 
+- Add a new calling policy - "Allow SIP calling".
+- Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
 
 - Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
 - Make sure your user account has an Shared Device License.
