@@ -8,8 +8,9 @@ _A brief description on what the first goal is and/or information. **Make sure t
 
 ## Office 365 Tenant Configuration
 ### Configure Teams Voice
-1. Add a new calling policy - 'Allow SIP calling."
-2. Edit New 
+In O365/TAC/Voice/Calling Policies
+1. Add a new calling policy - 'Allow SIP calling.
+2. Edit New Teams calling policy - Select 
 
 
 ### References
