@@ -1,6 +1,6 @@
 #knowledgebase  #teams #ATA #FAX #POTS #Analog #Phone
 
-# Onboarding Cisco ATA 19
+# Onboarding Cisco ATA 190 Series
 _Add a brief summary of what this document is going to cover._
 
 # Header 1 Goal 1
