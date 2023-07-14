@@ -17,6 +17,7 @@ In O365/TAC/Voice/Calling Policies
 - Make sure your user account has an Shared Device License, and [IP Phone Policy](https://learn.microsoft.com/en-us/powershell/module/skype/set-csteamsipphonepolicy?view=skype-ps) where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
 - Make sure your user account has a PSTN number assigned (We used a Calling Plan number which worked fine)
 
+Microsoft Teams Shared Devices - Enables the use of non-Teams Rooms shared devices with Microsoft Teams -From ‎$8.00‎ ‎licenses‎/month
 
 ### References
 
