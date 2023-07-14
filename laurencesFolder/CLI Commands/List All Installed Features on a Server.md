@@ -2,21 +2,17 @@
 
 
 ```Powershell
-# Script Name: List Installed Applications
+# Script Name: List Installed Features on a Server
 # Script Creator: Laurence Bramblett
-# Date Created: 7/14/20
+# Date Created: 7/14/23
 # Revision: 1.0
 # Revision Date: 
 # ~ Revision Notes ~
 # - Intial Development
-# Description: List Installed Applications
+# Description: Lists Instaled Features on a Server
 #-------------------------------------------------------------------------------------------------------------------------
-wmic product get name,version
 
-# - Export to CSV
+Get-WindowsFeature | Where-Object {$_.Installed -eq "True"} | Select-Object -Property DisplayName
 
-wmic product get name,version /format:csv > installed_apps.csv
-
-# - This exports to C:\Users\USERNAME
-
+# - 
 ```
