@@ -6,8 +6,9 @@ An analog telephone adapter (ATA) is a device for connecting traditional analog 
 # Header 1
 _A brief description on what the first goal is and/or information. **Make sure the text hugs the header in this format**_ 
 
-## Header 2
-_Initial description of or information regarding step1_
+## Office 365 Tenant Configuration
+### Configure Teams
+
 
 ### References
 
