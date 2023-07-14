@@ -7,7 +7,9 @@ An analog telephone adapter (ATA) is a device for connecting traditional analog 
 _A brief description on what the first goal is and/or information. **Make sure the text hugs the header in this format**_ 
 
 ## Office 365 Tenant Configuration
-### Configure Teams
+### Configure Teams Voice
+1. Add a new calling policy - 'Allow SIP calling."
+2. Edit New 
 
 
 ### References
