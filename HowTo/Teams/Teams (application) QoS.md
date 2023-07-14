@@ -1,7 +1,7 @@
 
 #Scripts  #teams #qos #voice
 
-
+The following will only result in the generated traffic (by the Teams Application) have appropriate DSCP flags.  W/O implementing L3 QoS rules on switches, routers, and firewalls, this will have no impact on traffic flow.
 ```Powershell
 #-------------------------------------------------------------------------------------------------------------------------
 new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
