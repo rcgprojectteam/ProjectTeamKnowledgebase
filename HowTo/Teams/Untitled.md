@@ -1,4 +1,4 @@
-#knowledgebase  _Your tags here_
+#knowledgebase  
 
 # Document Description
 _Add a brief summary of what this document is going to cover._
