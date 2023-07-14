@@ -19,7 +19,8 @@ In O365/TAC/Voice/Calling Policies
 
 ## Licenses Needed:
 - Microsoft Teams Shared Devices - Enables the use of non-Teams Rooms shared devices with Microsoft Teams - From ‎$8.00‎ ‎licenses‎/month
-- Microsoft Teams Phone with Calling Plan‎ - ‎Teams Phone with Calling Plan (country zone 1 - US)‎ - For users in the United States and Puerto Rico. - 
+- Microsoft Teams Phone with Calling Plan‎ - ‎Teams Phone with Calling Plan (country zone 1 - US)‎ - For users in the United States and Puerto Rico. - From ‎$12.00‎ ‎licenses‎/month
+
 
 ### References
 
