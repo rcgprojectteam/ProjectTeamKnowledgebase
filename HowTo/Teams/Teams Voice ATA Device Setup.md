@@ -5,13 +5,18 @@ An analog telephone adapter (ATA) is a device for connecting traditional analog 
 
 # Office 365 Tenant Configuration
 ## Configure Teams Voice
+
 In O365/TAC/Voice/Calling Policies
 - Add a new calling policy - "Allow SIP calling".
 - Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
 - Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
-- Make sure your user account has an Shared Device License.
+
+In Powershell:
 - IP Phone Policy where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
 - PS: `Set-CsTeamsIPPhonePolicy -Identity CommonAreaPhone -SignInMode CommonAreaPhoneSignin`
+
+In O365 Tenant:
+- Make sure your user account has an Shared Device License.
 - Make sure your user account has a PSTN number assigned (Use a Calling Plan)
 - SIP Gateway provisioning server URL - > Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 
