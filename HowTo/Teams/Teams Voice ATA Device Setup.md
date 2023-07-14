@@ -16,6 +16,8 @@ In O365/TAC/Voice/Calling Policies
 - IP Phone Policy where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
 - PS: `Set-CsTeamsIPPhonePolicy -Identity CommonAreaPhone -SignInMode CommonAreaPhoneSignin`
 - Make sure your user account has a PSTN number assigned (Use a Calling Plan)
+- SIP Gateway provisioning server URL - > 
+
 
 ## Licenses Needed:
 - Microsoft Teams Shared Devices - Enables the use of non-Teams Rooms shared devices with Microsoft Teams - From ‎$8.00‎ ‎licenses‎/month
