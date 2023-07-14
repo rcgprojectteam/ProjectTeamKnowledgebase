@@ -16,6 +16,7 @@ In O365/TAC/Voice/Calling Policies
 - Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
 - Make sure your user account has an Shared Device License, and 
 - IP Phone Policy where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
+- 
 - Make sure your user account has a PSTN number assigned (Use a Calling Plan)
 
 ## Licenses Needed:
