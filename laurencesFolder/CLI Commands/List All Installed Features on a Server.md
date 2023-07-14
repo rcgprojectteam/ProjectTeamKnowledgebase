@@ -14,5 +14,7 @@
 
 Get-WindowsFeature | Where-Object {$_.Installed -eq "True"} | Select-Object -Property DisplayName
 
-# - 
+# - Exports to CSV
+
+Get-WindowsFeature | Where-Object {$_.Installed -eq "True"} | Select-Object -Property DisplayName | Export-Csv C:\users\USERNAME\Desktop\installedRoles.csv
 ```
