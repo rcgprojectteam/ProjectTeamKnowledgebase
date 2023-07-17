@@ -37,4 +37,4 @@ In O365 Tenant:
 5. GitHub - SIP Gateway Analog Docs - https://github.com/darylhunter/SIPGatewayAnalogDocs/blob/main/Onboarding%20Cisco%20ATA%2019x%20with%20Microsoft%20SIP%20Gateway%20v10.31.22.pdf
 6. Microsoft Teams IP Phone Policy -  https://learn.microsoft.com/en-us/powershell/module/skype/set-csteamsipphonepolicy?view=skype-ps
 7. Provision and enroll SIP devices as common area phones - https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones
-8. Microsoft - Setup COmmon Area Phones - 
+8. Microsoft - Setup Common Area Phones - https://learn.microsoft.com/en-us/microsoftteams/set-up-common-area-phones
