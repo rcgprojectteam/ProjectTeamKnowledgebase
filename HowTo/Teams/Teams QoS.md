@@ -45,6 +45,19 @@ Create Bandwidth Profile Objects as follows:
 
 ![[Pasted image 20230717100755.png]]
 
+Update the WAN interface(s) with appropriate BW Management values as follows:
+> - The example below is for a 100Mbps symmetric service
+
+![[Pasted image 20230717100929.png]]
+
+Create an access rule as follows:
+
+![[Pasted image 20230717101149.png]]
+
+![[Pasted image 20230717101239.png]]
+
+![[Pasted image 20230717101255.png]]
+
 
 
 
