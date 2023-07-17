@@ -1,22 +1,34 @@
 
 #Scripts  #teams #qos #voice
 
-Teams QoS is a multi-faceted project which encompasses the following:
+##  Teams QoS is a multi-faceted project which encompasses the following:
+
 > - Teams Application and the underlying client-OS - set appropriate DSCP marks
 > - Appropriate VLAN isolation for Teams-specific hardware (handsets, etc.)
 > - QoS/CoS/DSCP marking at L3 across the client's LAN (and private WAN where implemented)
 > - Sonicwall (or other firewall) bandwidth management configuration
+
+### Pre-requisite information before ANY QoS implementation:
+
 > - Accurate knowledge of ISP-provisioned bandwidth on the DIA circuit
 >> -  Accurate measurement of delivered bandwidth on the DIA circuit
 > - Accurate knowledge of provisioned bandwidth on private WAN circuits
 >>  - Accurate measurement of delivered bandwidth on private WAN circuits
-> - **Ongoing management and communication when/if the WAN links change provisioned rates**
+
+### ***Ongoing management and communication with the client when provisioned rates on WAN links (including DIA are changed***
 
 
-## Network Switch configuration
 
-HPE/Aruba VLAN packet marking
+## Network Switch configuration for VoIP Hardware
 
+HPE/Aruba VLAN packet marking is accomplished using the following within the VLAN context:
+> - qos dscp ef
+
+
+## Sonicwall Bandwidth Management 
+
+Fundamental Bandwidth HowTo:
+<iframe width="1400" height="900" src="https://www.sonicwall.com/support/knowledge-base/how-can-i-configure-bandwidth-management/170521130013462/">title="Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Teams Application packet marking
