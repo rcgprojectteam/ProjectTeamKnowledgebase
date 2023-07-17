@@ -17,13 +17,17 @@
 
 ### ***Ongoing management and communication with the client when provisioned rates on WAN links (including DIA are changed***
 
-### <span style="color:red">Note that as a general rule, QoS matters most at the upstream link and only when that link is significantly smaller then the downstream links which brought traffic to the upstream congestion point. </span> 
+### <span style="color:red">Note that as a general rule QoS matters most at the upstream link when that link is significantly smaller then the downstream links feeding traffic into the upstream. </span> 
 
 
 ## Network Switch configuration for VoIP Hardware
 
-HPE/Aruba VLAN packet marking is accomplished using the following within the VLAN context:
+#### HPE/Aruba VLAN packet marking is accomplished using the following within the VLAN context:
 > - qos dscp ef
+
+#### UniFi Switches (not Ubiquiti EdgeSwitches)
+> - No real ability to specifically and selectively mark traffic
+
 
 
 ## Sonicwall Bandwidth Management 
