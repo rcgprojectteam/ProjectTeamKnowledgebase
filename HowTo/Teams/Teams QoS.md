@@ -42,6 +42,10 @@ Create Service Groups as follows:
 ![[Pasted image 20230717100639.png]]
 
 Create Bandwidth Profile Objects as follows:
+> - The values of Guaranteed and Maximum can be adjusted.  
+> - '**guaranteed**' sort-of reserves that amount away from the available bandwidth on the interface.
+> - '**maximum**' allows the prioritization to influence flow up to this value.  Usage over that value is handled w/o shaping.
+> - 
 
 ![[Pasted image 20230717100755.png]]
 
@@ -59,7 +63,9 @@ Create an access rule as follows:
 ![[Pasted image 20230717101255.png]]
 
 
+You can monitor if the rule is triggering by viewing the following page on the firewall:
 
+![[Pasted image 20230717101427.png]]
 
 
 Fundamental Bandwidth HowTo:
