@@ -15,7 +15,7 @@
 > - Accurate knowledge of provisioned bandwidth on private WAN circuits
 >>  - Accurate measurement of delivered bandwidth on private WAN circuits
 
-### ***Ongoing management and communication with the client when provisioned rates on WAN links (including DIA are changed***
+### ***Ongoing management and communication with the client when provisioned rates on WAN links (including DIA) are changed***
 
 ### <span style="color:red">Note that as a general rule QoS matters most at the upstream link when that link is significantly smaller then the downstream links feeding traffic into the upstream link. </span> 
 
