@@ -32,6 +32,23 @@
 
 ## Sonicwall Bandwidth Management 
 
+Overview:
+Create Service objects as follows:
+
+![[Pasted image 20230717100533.png]]
+
+Create Service Groups as follows:
+
+![[Pasted image 20230717100639.png]]
+
+Create Bandwidth Profile Objects as follows:
+
+![[Pasted image 20230717100755.png]]
+
+
+
+
+
 Fundamental Bandwidth HowTo:
 <iframe width="1400" height="900" src="https://www.sonicwall.com/support/knowledge-base/how-can-i-configure-bandwidth-management/170521130013462/">title="Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
