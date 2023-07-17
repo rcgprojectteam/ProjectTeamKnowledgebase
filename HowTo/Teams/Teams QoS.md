@@ -17,7 +17,7 @@
 
 ### ***Ongoing management and communication with the client when provisioned rates on WAN links (including DIA are changed***
 
-### <span style="color:red">Note that as a general rule QoS matters most at the upstream link when that link is significantly smaller then the downstream links feeding traffic into the upstream. </span> 
+### <span style="color:red">Note that as a general rule QoS matters most at the upstream link when that link is significantly smaller then the downstream links feeding traffic into the upstream link. </span> 
 
 
 ## Network Switch configuration for VoIP Hardware
@@ -45,7 +45,7 @@ Create Bandwidth Profile Objects as follows:
 > - The values of Guaranteed and Maximum can be adjusted.  
 > - '**guaranteed**' sort-of reserves that amount away from the available bandwidth on the interface.
 > - '**maximum**' allows the prioritization to influence flow up to this value.  Usage over that value is handled w/o shaping.
-> - 
+
 
 ![[Pasted image 20230717100755.png]]
 
