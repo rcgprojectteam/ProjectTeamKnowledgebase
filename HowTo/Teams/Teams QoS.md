@@ -17,6 +17,7 @@
 
 ### ***Ongoing management and communication with the client when provisioned rates on WAN links (including DIA are changed***
 
+### <span style="color:red">Note that as a general rule, QoS matters most at the upstream link and only when that link is significantly smaller then the downstream links which brought traffic to the upstream congestion point. </span> 
 
 
 ## Network Switch configuration for VoIP Hardware
