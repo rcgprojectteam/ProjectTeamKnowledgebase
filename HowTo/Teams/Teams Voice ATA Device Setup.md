@@ -14,8 +14,11 @@ In O365/TAC/Voice/Calling Policies
 
 In Powershell:
 - IP Phone Policy where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
-- This assumes you have the Teams Administration Powershell Module installed, if not click here.
+- This assumes you have the Teams Administration Powershell Module installed, if not click [here.](https://www.powershellgallery.com/packages/MicrosoftTeams/5.4.0)
+- You also need an active Teams Shared Device license in the tenant.
 ```
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams
 Set-CsTeamsIPPhonePolicy -Identity CommonAreaPhone -SignInMode CommonAreaPhoneSignin
 ```
 In O365 Tenant:
