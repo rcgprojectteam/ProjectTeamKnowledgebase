@@ -15,7 +15,9 @@ In O365/TAC/Voice/Calling Policies
 In Powershell:
 - IP Phone Policy where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
 - PS: `Set-CsTeamsIPPhonePolicy -Identity CommonAreaPhone -SignInMode CommonAreaPhoneSignin`
-
+```
+Set-CsTeamsIPPhonePolicy -Identity CommonAreaPhone -SignInMode CommonAreaPhoneSignin
+```
 In O365 Tenant:
 - Make sure your user account has an Shared Device License.
 - Make sure your user account has a PSTN number assigned (Use a Calling Plan)
