@@ -2,17 +2,16 @@
 #Scripts  #teams #qos #voice
 
 Teams QoS is a multi-faceted project which encompasses the following:
-Teams Application and the underlying client-OS
-Managed Switches
-Appropriate VLAN isolation for Teams-specific hardware (handsets, etc.)
-QoS/CoS/DSCP marking at L3 across the client's LAN (and private WAN where implemented)
-Sonicwall (or other firewall) 
-Accurate knowledge of ISP-provisioned bandwidth on the DIA circuit
-Accurate measurement of delivered bandwidth on the DIA circuit
-Accurate knowledge of provisioned bandwidth on private 
-Accurate measurement of delivered bandwidth on the DIA circuit
+> - Teams Application and the underlying client-OS
+> - Appropriate VLAN isolation for Teams-specific hardware (handsets, etc.)
+> - QoS/CoS/DSCP marking at L3 across the client's LAN (and private WAN where implemented)
+> - Sonicwall (or other firewall) bandwidth management configuration
+> - Accurate knowledge of ISP-provisioned bandwidth on the DIA circuit
+> - Accurate measurement of delivered bandwidth on the DIA circuit
+> - Accurate knowledge of provisioned bandwidth on private WAN circuits
+> - Accurate measurement of delivered bandwidth on private WAN circuits
 
-
+## Teams Application packet marking
 The following will only result in the generated traffic (by the Teams Application) have appropriate DSCP flags.  W/O implementing L3 QoS rules on switches, routers, and firewalls, this will have no impact on traffic flow.
 ```Powershell
 #-------------------------------------------------------------------------------------------------------------------------
