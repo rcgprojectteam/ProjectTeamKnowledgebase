@@ -28,6 +28,7 @@ In O365 Tenant:
 - Microsoft Teams Phone with Calling Plan‎ - ‎Teams Phone with Calling Plan (country zone 1 - US)‎ - For users in the United States and Puerto Rico. - From ‎$12.00‎ ‎licenses‎/month
 
 
+
 ### References
 
 1. Configure SIP Gateway - https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure
