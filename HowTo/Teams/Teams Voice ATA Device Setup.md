@@ -12,7 +12,7 @@ In O365/TAC/Voice/Calling Policies
 - Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
 - Provision and enroll SIP devices as common area phones. [Here.](https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones)
 
-In Powershell:
+In Powershell: (to be reviewed further, might not need this step.)
 - IP Phone Policy where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
 - This assumes you have the Teams Administration Powershell Module installed, if not click [here.](https://www.powershellgallery.com/packages/MicrosoftTeams/5.4.0)
 - You also need an active Teams Shared Device license in the tenant.
