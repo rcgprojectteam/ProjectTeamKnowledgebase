@@ -4,7 +4,7 @@
 This document covers licenses needed for Teams Voice deployment. 
 
 # Teams Voice - Microsoft as PSTN
-_A brief description on what the first goal is and/or information. **Make sure the text hugs the header in this format**_ 
+Licenses needed for Microsoft teams Voice with Microsoft as the Public Switched Telephone Network 
 
 
 
