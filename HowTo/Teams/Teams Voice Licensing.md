@@ -1,0 +1,13 @@
+#knowledgebase  #license #office #teams #teamsvoice #voice 
+
+# Document Description
+This document covers licenses needed for Teams Voice deployment. 
+
+# Teams Voice - Microsoft as PSTN
+_A brief description on what the first goal is and/or information. **Make sure the text hugs the header in this format**_ 
+
+# Teams Voice - External PSTN
+_Initial description of or information regarding step1_
+
+### Header 3 Sidenotes, sub steps, or options
+_If a step has multiple options, sub steps or any side notes use header 3_
