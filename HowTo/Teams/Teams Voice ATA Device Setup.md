@@ -36,9 +36,9 @@ In O365/TAC/Voice/Calling Policies
 4. Reset Admin Password: Administration -> Management -> User List 
 5. Select edit button for Admin user. 
 6. Create a complex password and store it in ITGlue for the client. 'User - Cisco ATA192 - Admin'
-7. Enable Remote Management: 
-8. thing 3
-9. 
+7. Enable Remote Management: Administration -> Management ->  Web Access Management. Select 'Enabled' on the Remote Management selection. Enable HTTPS.
+9. Assign Profile Provisioning Rule: Voice -> Provisioning -> 
+10. 
 
 
 
