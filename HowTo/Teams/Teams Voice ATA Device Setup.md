@@ -30,11 +30,13 @@ In O365/TAC/Voice/Calling Policies
 7. Add the fax user and then select apply.
 
 # Provision and enroll Cisco ATA SIP Device.
-1. Get the latest firmware from cisco.
-2. Isntall the latest firmware 
-3. thing 2
-4. thing 3
-5. 
+1. Get the latest firmware from cisco for the Cisco ATA.
+2. Install the latest firmware: Administrator ->Firmware Upgrade
+3. Reboot.
+4. Reset Admin Passwor
+5. thing 2
+6. thing 3
+7. 
 
 
 
