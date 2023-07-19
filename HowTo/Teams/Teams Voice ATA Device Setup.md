@@ -30,6 +30,7 @@ In O365/TAC/Voice/Calling Policies
 7. Add the fax user and then select apply.
 
 # Provision and enroll Cisco ATA SIP Device.
+## Provision the Cisco ATA192 hardware.
 1. Get the latest firmware from cisco for the Cisco ATA.
 2. Install the latest firmware: Administrator ->Firmware Upgrade
 3. Reboot.
@@ -37,9 +38,10 @@ In O365/TAC/Voice/Calling Policies
 5. Select edit button for Admin user. 
 6. Create a complex password and store it in ITGlue for the client. 'User - Cisco ATA192 - Admin'
 7. Enable Remote Management: Administration -> Management ->  Web Access Management. Select 'Enabled' on the Remote Management selection. Enable HTTPS.
-9. Assign Profile Provisioning Rule: Voice -> Provisioning -> 
-10. 
-
+9. Assign Profile Provisioning Rule: Voice -> Provisioning -> Profile Rule
+10. Enter this URL: `http://noam.ipp.sdg.teams.microsoft.com/mac.cfg`
+11.  Save Configuration, the ATA will reboot.
+##  Cisco ATA192 
 
 
 ### In Process stuff below:
