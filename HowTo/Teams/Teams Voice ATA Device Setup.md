@@ -37,7 +37,7 @@ In O365/TAC/Voice/Calling Policies
 
 
 
-
+### In Process stuff below:
 - Provision and enroll SIP devices as common area phones. [Here.](https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones)
 
 In Powershell: (to be reviewed further, might not need this step.)
