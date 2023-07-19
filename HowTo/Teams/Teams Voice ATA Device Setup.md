@@ -33,10 +33,12 @@ In O365/TAC/Voice/Calling Policies
 1. Get the latest firmware from cisco for the Cisco ATA.
 2. Install the latest firmware: Administrator ->Firmware Upgrade
 3. Reboot.
-4. Reset Admin Passwor
-5. thing 2
-6. thing 3
-7. 
+4. Reset Admin Password: Administration -> Management -> User List 
+5. Select edit button for Admin user. 
+6. Create a complex password and store it in ITGlue for the client. 'User - Cisco ATA192 - Admin'
+7. Enable Remote Management: 
+8. thing 3
+9. 
 
 
 
