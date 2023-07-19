@@ -10,7 +10,7 @@ An analog telephone adapter (ATA) is a device for connecting traditional analog 
 
 # Office 365 User Configuration
 1. Log into Office 365 tenant.
-2. Create a new user, if the ATA deice is used for faxing name the account 'fax@clientname.com'
+2. Create a new user, if the ATA deice is used for faxing name the account 'fax@clientname.com' Document password in ITG
 3. Assign 'Microsoft Teams Shared Devices' and 'Teams Phone with Calling Plan (country zone 1 - US)' licenses to the user account.
 4. Open the (TAC) Teams Administration Center
 5. Go to Voice/Phone Numbers.
