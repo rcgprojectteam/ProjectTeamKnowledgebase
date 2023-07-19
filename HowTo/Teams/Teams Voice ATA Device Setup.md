@@ -5,19 +5,20 @@ An analog telephone adapter (ATA) is a device for connecting traditional analog 
 
 # Office 365 User Configuration
 1. Log into Office 365 tenant.
-2. Create a new user. if the ATA deice is used for faxing name the account 'fax@clientname.com'
+2. Create a new user, if the ATA deice is used for faxing name the account 'fax@clientname.com'
 3. Assign 'Microsoft Teams Shared Devices' and 'Teams Phone with Calling Plan 9country zone 1 - US' licenses to the user account.
 4. Open the (TAC) Teams Administration Center
 5. Go to Voice/Phone Numbers.
-6. 
+6. Select a number and click on Edit.
+7. Assign number to the fax@companymane.com account.
 
 # Office 365 Tenant Configuration
 ## Configure Teams Voice
 
 In O365/TAC/Voice/Calling Policies
-- Add a new calling policy - "Allow SIP calling".
-- Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
-- Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
+1. Add a new calling policy - "Allow SIP calling".
+2. Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
+3. Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
 - Provision and enroll SIP devices as common area phones. [Here.](https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones)
 
 In Powershell: (to be reviewed further, might not need this step.)
