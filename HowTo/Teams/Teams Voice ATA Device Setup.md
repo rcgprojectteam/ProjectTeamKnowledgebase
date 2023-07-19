@@ -41,8 +41,10 @@ In O365/TAC/Voice/Calling Policies
 9. Assign Profile Provisioning Rule: Voice -> Provisioning -> Profile Rule
 10. Enter this URL: `http://noam.ipp.sdg.teams.microsoft.com/mac.cfg`
 11.  Save Configuration, the ATA will reboot.
-##  Cisco ATA192 
-
+##  Pair Cisco ATA192 in Office 365
+1. From TEC navigate to Teams Devices -> SIP Devices -> Actions -> Provision Devices
+2. Select 'Add MAC addresses manually'
+3.  
 
 ### In Process stuff below:
 - Provision and enroll SIP devices as common area phones. [Here.](https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones)
