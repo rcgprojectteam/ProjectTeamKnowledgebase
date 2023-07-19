@@ -3,10 +3,15 @@
 # Onboarding Cisco Analog Telephone Adapter 190 Series Device.
 An analog telephone adapter (ATA) is a device for connecting traditional analog devices to a digital telephone system. In context of (SIP) Session Initiation Protocol (GW) Gate Way, it connects these analog devices via SIP GW to Microsoft Teams.
 
+### Pre-Requisites:
+1. Licenses: Microsoft Teams Shared Devices and Teams Phone with Calling Plan (country zone 1 - US)
+2. Assignable DID number.
+3. Cisco ATA192-MPP Device
+
 # Office 365 User Configuration
 1. Log into Office 365 tenant.
 2. Create a new user, if the ATA deice is used for faxing name the account 'fax@clientname.com'
-3. Assign 'Microsoft Teams Shared Devices' and 'Teams Phone with Calling Plan 9country zone 1 - US' licenses to the user account.
+3. Assign 'Microsoft Teams Shared Devices' and 'Teams Phone with Calling Plan (country zone 1 - US)' licenses to the user account.
 4. Open the (TAC) Teams Administration Center
 5. Go to Voice/Phone Numbers.
 6. Select a number and click on Edit.
