@@ -4,13 +4,13 @@
 An analog telephone adapter (ATA) is a device for connecting traditional analog devices to a digital telephone system. In context of (SIP) Session Initiation Protocol (GW) Gate Way, it connects these analog devices via SIP GW to Microsoft Teams.
 
 ### Pre-Requisites:
-1. Licenses: Microsoft Teams Shared Devices and Teams Phone with Calling Plan (country zone 1 - US)
+1. Licenses: **Microsoft Teams Shared Devices** and **Teams Phone with Calling Plan (country zone 1 - US)**
 2. Assignable DID number.
 3. Cisco ATA192-MPP Device
 
 # Office 365 User Configuration
 1. Log into Office 365 tenant.
-2. Create a new user, if the ATA deice is used for faxing name the account 'fax@clientname.com' Document password in ITG
+2. Create a new user, if the ATA deice is used for faxing name the account 'fax@clientname.com' Document password in ITGlue and MFA the account.  Use TOTP auth from ITGlue. Enforce MFA.
 3. Assign 'Microsoft Teams Shared Devices' and 'Teams Phone with Calling Plan (country zone 1 - US)' licenses to the user account.
 4. Open the (TAC) Teams Administration Center
 5. Go to Voice/Phone Numbers.
@@ -24,6 +24,16 @@ In O365/TAC/Voice/Calling Policies
 1. Add a new calling policy - "Allow SIP calling".
 2. Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
 3. Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
+
+# Provision and enroll Cisco ATA SIP Device.
+1. thing 1
+2. thing 2
+3. thing 3
+4. 
+
+
+
+
 - Provision and enroll SIP devices as common area phones. [Here.](https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones)
 
 In Powershell: (to be reviewed further, might not need this step.)
