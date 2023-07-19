@@ -18,12 +18,16 @@ An analog telephone adapter (ATA) is a device for connecting traditional analog 
 7. Assign number to the fax@companymane.com account.
 
 # Office 365 Tenant Configuration
-## Configure Teams Voice
+## Configure Teams Voice for ATA SIP Device.
 
 In O365/TAC/Voice/Calling Policies
 1. Add a new calling policy - "Allow SIP calling".
 2. Edit New Teams calling policy - Turn on setting "SIP Devices can be used for calls."
 3. Make sure your Calling Policy allows SIP devices to be used for calls (slider right near the bottom)
+4. Save the new policy.
+5. Select the new calling policy.
+6. Select 'manage users/assign users'
+7. Add the fax user and then select apply.
 
 # Provision and enroll Cisco ATA SIP Device.
 1. thing 1
