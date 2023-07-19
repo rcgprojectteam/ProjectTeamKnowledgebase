@@ -8,9 +8,8 @@ _Licenses needed for Microsoft teams Voice with Microsoft as the Public Switched
 
 1. Data goes here - And some more data.
 2. Dat
-3. Communication Credits (add-on) - Communication Credits provide a monthly pool of minutes that can be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month. If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](https://learn.microsoft.com/en-us/microsoftteams/set-up-communications-credits-for-your-organization).
-
-
+3. **Communication Credits (add-on) -** Communication Credits provide a monthly pool of minutes that can be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month. If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](https://learn.microsoft.com/en-us/microsoftteams/set-up-communications-credits-for-your-organization).
+4. **Microsoft Teams Shared Devices -** Many organizations require flexible workplace solutions as they shift to hybrid work scenarios. The Microsoft Teams Shared Devices license is designed to support hybrid work by allowing offices to designate devices as shared devices, including common area phones, Teams displays for hot-desks, and Teams panels for meeting spaces. For more information, see [Microsoft Teams Shared Devices licensing](https://learn.microsoft.com/en-us/microsoftteams/teams-add-on-licensing/teams-shared-device-license). This license is needed for ATA Devices to function.
 
 # Teams Voice - External PSTN (Hughes Direct Routing)
 _Licenses needed for Microsoft teams Voice with an external Session Boarder Controller to Direct Routing_
