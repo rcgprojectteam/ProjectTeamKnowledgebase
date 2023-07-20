@@ -43,8 +43,12 @@ In O365/TAC/Voice/Calling Policies
 11.  Save Configuration, the ATA will reboot.
 ##  Pair Cisco ATA192 in Office 365
 1. From TEC navigate to Teams Devices -> SIP Devices -> Actions -> Provision Devices
-2. Select 'Add MAC addresses manually'
-3.  
+2. Select 'Add MAC addresses manually' a fly out window will open from the right. 
+3. Change ID type to 'Hardware ID (analog)'
+
+
+Continue to update me. START HERE.
+
 
 ### In Process stuff below:
 - Provision and enroll SIP devices as common area phones. [Here.](https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones)
