@@ -50,8 +50,14 @@ In O365/TAC/Voice/Calling Policies
 6. The ATA device should now be in 'waiting on activation'
 7. Select the device. 
 8. Select 'Generate verification code'
-9. Connect an analog phone to the port you are trying to activate.
-10. Dial: `*55*[activation code]` Give the device a minute or two to register, an audio file from microsoft will play, then the phoine will hang-up on it's own.  
+9. Connect an analog phone to the port you are trying to activate on the ATA device.
+10. Dial: `*55*[activation code]` Give the device a minute or two to register, an audio file from Microsoft will play, then the phone will hang-up on it's own.
+11. Select 'waiting for sign in'
+12. Select the device then 'Sign in a user'
+13. A new dialog box with a code is generated. Don sign in with the admin account!
+14. Open a new incognito window and go to this address: https://portal.sdg.teams.microsoft.com/
+15. Login with the FAX user account.
+16. Enter the code
 
 
 Continue to update me. START HERE.
