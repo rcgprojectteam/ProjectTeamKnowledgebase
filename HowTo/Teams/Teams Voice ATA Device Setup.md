@@ -45,7 +45,10 @@ In O365/TAC/Voice/Calling Policies
 1. From TEC navigate to Teams Devices -> SIP Devices -> Actions -> Provision Devices
 2. Select 'Add MAC addresses manually' a fly out window will open from the right. 
 3. Change ID type to 'Hardware ID (analog)'
-4. Enter
+4. Enter Hardware ID.  This will be in the form of the devices MAC address and port. `00-XX-0X-0X-0X-XX:000`
+5. Enter Location and save to close the fly-out window.
+6. Select Waiting for sign in tab.
+7. 
 
 
 Continue to update me. START HERE.
