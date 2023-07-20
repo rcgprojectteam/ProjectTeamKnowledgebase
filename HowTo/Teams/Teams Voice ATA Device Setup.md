@@ -47,8 +47,11 @@ In O365/TAC/Voice/Calling Policies
 3. Change ID type to 'Hardware ID (analog)'
 4. Enter Hardware ID.  This will be in the form of the devices MAC address and port. `00-XX-0X-0X-0X-XX:000`
 5. Enter Location and save to close the fly-out window.
-6. Select Waiting for sign in tab.
-7. 
+6. The ATA device should now be in 'waiting on activation'
+7. Select the device. 
+8. Select 'Generate verification code'
+9. Connect an analog phone to the port you are trying to activate.
+10. Dial: `*55*[activation code]` Give the device a minute or two to register, an audio file from microsoft will play, then the phoine will hang-up on it's own.  
 
 
 Continue to update me. START HERE.
