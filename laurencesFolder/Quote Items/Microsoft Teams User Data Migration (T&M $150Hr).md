@@ -1,3 +1,4 @@
+#microsoftteams #sell #quotes 
 Migration Execution: Implement the migration strategy developed during the discovery phase. This will involve using migration tools to move data in batches or all at once, based on the planned approach.
 
 User Permissions Setup: Configure user permissions and access rights on Microsoft Teams according to predefined roles and responsibilities.

@@ -1,3 +1,4 @@
+#microsoftteams #sell #quotes 
 Pre-Launch Review: Conduct a final review of the Microsoft Teams setup, ensuring that all migrated data, user permissions, and integrations are functioning as intended. Validate that all security measures and compliance checks are in place.
 
 System Transition: Officially move operations from the existing communication and collaboration systems to Microsoft Teams. This transition will be guided by the developed migration strategy and will consider minimal disruption of regular business operations.
