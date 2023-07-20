@@ -1,0 +1,4 @@
+#microsoftteams #sell #quotes 
+Data Discovery: Investigating existing data sources within the organization including shared drives, network folders, databases, and other collaboration tools. This includes understanding the nature, sensitivity, and volume of the data.
+
+Requirements Gathering: Identifying key business and technical requirements for the migration. This includes understanding the specific needs for data access, permissions, security, retention policies, and compliance regulations.
