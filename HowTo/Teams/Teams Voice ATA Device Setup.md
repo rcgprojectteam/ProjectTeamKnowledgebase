@@ -8,6 +8,10 @@ An analog telephone adapter (ATA) is a device for connecting traditional analog 
 2. Assignable DID number.
 3. Cisco ATA192-MPP Device
 
+### Quick Links:
+- SIP Gateway provisioning server URL - > Americas: `http://noam.ipp.sdg.teams.microsoft.com`
+- Microsoft SIP Gateway pairing portal - https://portal.sdg.teams.microsoft.com/
+
 # Office 365 User Configuration
 1. Log into Office 365 tenant.
 2. Create a new user, if the ATA deice is used for faxing name the account 'fax@clientname.com' Document password in ITGlue and MFA the account.  Use TOTP auth from ITGlue. Enforce MFA.
@@ -54,33 +58,19 @@ In O365/TAC/Voice/Calling Policies
 10. Dial: `*55*[activation code]` Give the device a minute or two to register, an audio file from Microsoft will play, then the phone will hang-up on it's own.
 11. Select 'waiting for sign in'
 12. Select the device then 'Sign in a user'
-13. A new dialog box with a code is generated. Don sign in with the admin account!
+13. A new dialog box with a code is generated. Don't sign in with the admin account!
 14. Open a new incognito window and go to this address: https://portal.sdg.teams.microsoft.com/
 15. Login with the FAX user account.
-16. Enter the code
+16. Enter the code generated when clicking on 'Sign in a user'
+17. Finish sign in. 
+18. Cisco ATA device will reboot several times as it finished provisioning the device to use teams voice. This process can take roughly 5 minutes.
+19. You can confirm functionality by using an analog phone to call in and out. 
 
 
-Continue to update me. START HERE.
 
+### Troubleshooting notes:
+- 
 
-### In Process stuff below:
-- Provision and enroll SIP devices as common area phones. [Here.](https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones)
-
-In Powershell: (to be reviewed further, might not need this step.)
-- IP Phone Policy where the sign in mode is set to CommonAreaPhoneSignIn (you have to do this through PowerShell, its not visible in the Admin Centre)
-- This assumes you have the Teams Administration Powershell Module installed, if not click [here.](https://www.powershellgallery.com/packages/MicrosoftTeams/5.4.0)
-- You also need an active Teams Shared Device license in the tenant.
-```
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
-Set-CsTeamsIPPhonePolicy -Identity CommonAreaPhone -SignInMode CommonAreaPhoneSignin
-```
-In O365 Tenant:
-- Make sure your user account has an Shared Device License.
-- Make sure your user account has a PSTN number assigned (Use a Calling Plan)
-- SIP Gateway provisioning server URL - > Americas: `http://noam.ipp.sdg.teams.microsoft.com`
-
-- Microsoft SIP Gateway pairing portal - https://portal.sdg.teams.microsoft.com/
 
 ## Licenses Needed:
 - Microsoft Teams Shared Devices - Enables the use of non-Teams Rooms shared devices with Microsoft Teams - From ‎$8.00‎ ‎licenses‎/month
