@@ -45,6 +45,7 @@ In O365/TAC/Voice/Calling Policies
 9. Assign Profile Provisioning Rule: Voice -> Provisioning -> Profile Rule
 10. Enter this URL: `http://noam.ipp.sdg.teams.microsoft.com/mac.cfg`
 11.  Save Configuration, the ATA will reboot.
+
 ##  Pair Cisco ATA192 in Office 365
 1. From TEC navigate to Teams Devices -> SIP Devices -> Actions -> Provision Devices
 2. Select 'Add MAC addresses manually' a fly out window will open from the right. 
@@ -66,20 +67,11 @@ In O365/TAC/Voice/Calling Policies
 18. Cisco ATA device will reboot several times as it finished provisioning the device to use teams voice. This process can take roughly 5 minutes.
 19. You can confirm functionality by using an analog phone to call in and out. 
 
+# Troubleshooting notes:
+- Once a SIP device is registered with Microsoft, there is no way to remove the device from the TAC portal.
+- Only way I could to log a user out of a device was to either delete the user, change the password or enable MFA.
 
-
-### Troubleshooting notes:
-- 
-
-
-## Licenses Needed:
-- Microsoft Teams Shared Devices - Enables the use of non-Teams Rooms shared devices with Microsoft Teams - From ‎$8.00‎ ‎licenses‎/month
-- Microsoft Teams Phone with Calling Plan‎ - ‎Teams Phone with Calling Plan (country zone 1 - US)‎ - For users in the United States and Puerto Rico. - From ‎$12.00‎ ‎licenses‎/month
-
-
-
-### References
-
+# References:
 1. Configure SIP Gateway - https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-configure
 2. Cisco ATA 191 and 192 Analog Telephone Adapter Multiplatform Phones Release Notes for Firmware Release 11.1(0) - https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-1/release_notes/at92_b_cisco-ata-191-and-192.html#task_D84DAFD51D92A2AADCCBAE3643F21DCD
 3. Cisco Forum Setup Thread - https://community.cisco.com/t5/webex-devices/cisco-ata-191-microsoft-teams-sip/m-p/4761129
