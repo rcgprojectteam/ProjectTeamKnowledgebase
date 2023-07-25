@@ -10,6 +10,7 @@ An analog telephone adapter (ATA) is a device for connecting traditional analog 
 
 ### Quick Links:
 - SIP Gateway provisioning server URL - > Americas: `http://noam.ipp.sdg.teams.microsoft.com`
+- Microsoft Leaning link for SIP Gateway: https://learn.microsoft.com/en-us/microsoftteams/sip-gateway-plan
 - Microsoft SIP Gateway pairing portal - https://portal.sdg.teams.microsoft.com/
 
 # Office 365 User Configuration
