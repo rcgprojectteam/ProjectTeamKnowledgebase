@@ -1,4 +1,3 @@
-**Scope:**  
 
 - Pre-Live Day Site Survey 
     - Ensure Site is Configured for Live Day 

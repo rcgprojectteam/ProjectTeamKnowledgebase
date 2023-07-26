@@ -1,4 +1,3 @@
-**Scope**:
 
 - Broker and Manage Telco Port Agreement
 - Port Existing Numbers to Microsoft Voice
