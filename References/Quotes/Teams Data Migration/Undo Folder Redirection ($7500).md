@@ -1,0 +1,4 @@
+- Update associated GPOs to redirect userfolders back to local workstation/user
+- Disable Offline file sync (if present) withinshare properties and/or associated GPOs
+- Allow for propagation time (multiple user login/logout cycles and workstation reboots)
+- Check each user profile to ensure clean termination of redirection and remediate issues as encountered
