@@ -26,5 +26,5 @@ You can also type help to get a list of the commands that you can run. Again, no
 
 ![[Pasted image 20230726083700.png]]
 
-Disconnect your session with a client by typing exit.  
+Disconnect your session with a client by typing exit.  Disconnect from the relay by typing exit.
 ![[Pasted image 20230726083845.png]]
