@@ -1,0 +1,1 @@
+(assumes no more than 4 configured printers/user/endpoint)

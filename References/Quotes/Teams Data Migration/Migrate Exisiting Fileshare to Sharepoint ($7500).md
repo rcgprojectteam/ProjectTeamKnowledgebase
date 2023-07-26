@@ -1,0 +1,10 @@
+- Execute the migration from existing Fileshare to SharePoint 365 using the migration tool provided by Microsoft.
+- Monitor the migration process and address any issues that arise.
+- Test the SharePoint 365 environment to ensure it meets the functional and performance requirements.
+- Test the SharePoint 365 environment to ensure it meets the compliance and security requirements.
+- Verify that all data, configurations, permissions, groups, roles, and users are migrated successfully.
+- Verify that all workflows, customizations, and features are working as expected.
+- Validate the mapping of the source Fileshare data to the target SharePoint 365 environment.
+- Verify that all external systems or third-party applications that depend on the existing Fileshare are updated to use SharePoint 365.
+- Conduct user acceptance testing to ensure that the users can effectively use the new environment.
+- Provide training to the users to ensure they can effectively use the new environment.

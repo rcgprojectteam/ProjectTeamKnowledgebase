@@ -1,0 +1,5 @@
+- Includes (or does not include) migrating the user's profile to the new AD profile (settings, desktop icons, shortcuts, etc.)  Assumes sharepoint/teams/onedrive project has been completed. 
+- Requires IP printing to be completed prior to this phase
+- Disjoin the machine from the on-prem active directory.
+- Migrate needed network services (DHCP, DNS, etc.) off the domain controller.
+- Shutdown and de-cabling of old server
