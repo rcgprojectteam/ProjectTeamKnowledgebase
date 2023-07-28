@@ -8,7 +8,14 @@ Using a LBFO NIC team in Server 2022 for HyperV has been depricated. The new mod
 New-VMSwitch -Name "VM Traffic" -NetAdapterName "VM Traffic Team" -AllowNetLbfoTeams $true -AllowManagementOS $false
 
 ## SET Information
-_Initial description of or information regarding step1_
+[Host network requirements for Azure Stack HCI - Azure Stack HCI | Microsoft Learn](https://learn.microsoft.com/en-us/azure-stack/hci/concepts/host-network-requirements#switch-embedded-teaming-set)
+SET requires the use of symmetric (identical) adapters. Symmetric network adapters are those that have the same:
 
-### Header 3 Sidenotes, sub steps, or options
-_If a step has multiple options, sub steps or any side notes use header 3_
+- make (vendor)
+- model (version)
+- speed (throughput)
+- configuration
+
+## How to configure a VMswitch using SET
+[Step-by-Step – Deploy Switch Embedded Teaming (SET) On Hyper-V - CHARBEL NEMNOM - MVP | MCT | CCSP | CISM - Cloud & CyberSecurity](https://charbelnemnom.com/deploying-switch-embedded-teaming-set-on-hyper-v/?expand_article=1)
+New-VMSwitch -Name SETswitch -NetAdapterName "Ethernet1","Ethernet2" -EnableEmbeddedTeaming $true
