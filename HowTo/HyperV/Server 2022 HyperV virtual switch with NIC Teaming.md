@@ -17,6 +17,6 @@ SET requires the use of symmetric (identical) adapters. Symmetric network adapte
 - speed (throughput)
 - configuration
 
-## How to configure a VMswitch using SET
+## How to configure a VMswitch using a SET Team
 [Step-by-Step – Deploy Switch Embedded Teaming (SET) On Hyper-V - CHARBEL NEMNOM - MVP | MCT | CCSP | CISM - Cloud & CyberSecurity](https://charbelnemnom.com/deploying-switch-embedded-teaming-set-on-hyper-v/?expand_article=1)
 New-VMSwitch -Name SETswitch -NetAdapterName "Ethernet1","Ethernet2" -EnableEmbeddedTeaming $true
