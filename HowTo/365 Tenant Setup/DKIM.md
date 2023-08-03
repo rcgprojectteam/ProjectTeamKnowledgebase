@@ -1,3 +1,4 @@
+#dkim #tenant #onboarding #authentication 
 Log into the Clients Tenant
 	Click "Show All" in the left panel to expand the options
 	Under the header "Admin centers" on the left panel click on "Security" (a new window will open)
