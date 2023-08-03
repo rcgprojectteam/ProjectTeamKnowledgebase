@@ -17,3 +17,5 @@ Log into the Clients Tenant
 									Host name: selector2._domainkey
 									Points to address or value:    selector2-<DOMAIN>-<SUFFIX>._domainkey.<DOMAIN>.onmicrosoft.com
 									TTL: 3600
+
+![[DKIM Setup Tenant.gif]]
