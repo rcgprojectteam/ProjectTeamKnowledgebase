@@ -18,4 +18,8 @@ Log into the Clients Tenant
 									Points to address or value:    selector2-<DOMAIN>-<SUFFIX>._domainkey.<DOMAIN>.onmicrosoft.com
 									TTL: 3600
 
+DNS Records can take up to 4 days to update.
+
+
+
 ![[DKIM Setup Tenant.gif]]
