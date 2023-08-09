@@ -12,23 +12,22 @@
 | Decommission BRaV                                           | Project Team |
 | Decommission or transfer Datto BCDR                         | Project Team |
 | Disable Datto / ConnectWise integration                     | Project Team |
-| Remove client from Backupify                                                            |              |
+| Remove client from Backupify (365 Backup)                   | Project Team |
+| Provide password information, only if requested             | Project Team |
+| Remove agents from Servers and PCs                          | Project Team |
+| Remove End Users from Continuum Portal                      | Project Team |
+| Remove/Archive Client from Continuum                        | Project Team |
+| Remove client from OpenDNS                                  | Project Team |
+| Remove client from BrightGauge                              | Jamie        |
+| Update all BrightGauge gauges based on company              | Jamie        |
+| Remove Users from ConnectWise Streamline IT                 | Sean         |
+| Lockdown ITGlue                                             | Sean         |
+| Remove from myITprocess                                     |              |
+| Remove end user access to GMS                               | Project Team |
+| Disable GoDaddy auto renewals                               |              |
+|                                                             |              |
 
 
-
- - Project Team
-If Office 365, change passwords - Erika
-If office 365, have Erika cancel them in Synnex portal - Erika
-Expirations - vCIO
-Remove SW from GMS - Project Team
-Decommission BRAV - Project Team
-Decommision or transfer Datto BCDR - Project Team
-Disable Datto / ConnectWise Integration - Project Team
-Remove client from Backupify (365 backup) - Project Team
-Provide password information only if asked to provide it - Project Team
-Remove agent from server and PCs - Project Team
-Remove End Users from Continuum Portal - Project Team
-Remove Client from Continuum - Project Team
 Remove client from OpenDNS - Project Team
 Remove client from BrightGauge - Jamie
 Update all BrightGauge gauges based on company - Jamie
