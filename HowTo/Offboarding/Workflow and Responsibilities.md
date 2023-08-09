@@ -22,9 +22,9 @@
 | Update all BrightGauge gauges based on company                                                   | Jamie        |
 | Remove Users from ConnectWise Streamline IT                                                      | Sean         |
 | Lockdown ITGlue                                                                                  | Sean         |
-| Remove from myITprocess                                                                          |              |
+| Remove from myITprocess                                                                          | Jon Capella  |
 | Remove end user access to GMS                                                                    | Project Team |
-| Disable GoDaddy auto renewals                                                                    |              |
+| Disable GoDaddy auto renewals                                                                    | Project Team | 
 | Remove RCG OU / Users from AD                                                                    | Project Team |
 | Remove domain from email filtering service/Reduce the number of needed licenses in the filtering |              |
 | Mark client Inactive in ConnectWise                                                              | Sean         |
