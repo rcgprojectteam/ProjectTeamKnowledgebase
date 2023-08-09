@@ -1,9 +1,9 @@
 | Task | Owner |
-| ---- | ----- |
-|      |       |
+| Make sure all entries are billed at $150/hr | Erika |
+|   Accounting: perform these tasks when a client leaves   |    Erika |
 
-Make sure all entries are billed at $150/hr - Erika
-Accounting: perform these tasks when a client leaves - Erika
+
+ - 
 Remove client from email list (Marketing) - Mollie
 Remove Vipre/WebRoot - Project Team
 Remove Desk Director - Project Team
