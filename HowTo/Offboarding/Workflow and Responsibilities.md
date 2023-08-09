@@ -1,16 +1,16 @@
-Make sure all entries are billed at $150/hr
-Accounting: perform these tasks when a client leaves
-Remove client from email list (Marketing)
-Remove Vipre/WebRoot
-Remove Desk Director
-If Office 365, change passwords
-If office 365, have Erika cancel them in Synnex portal
-Expirations
-Remove SW from GMS
-Decommission BRAV
-Decommision or transfer Datto BCDR
-Disable Datto / ConnectWise Integration
-Remove client from Backupify (365 backup) 
+Make sure all entries are billed at $150/hr - Erika
+Accounting: perform these tasks when a client leaves - Erika
+Remove client from email list (Marketing) - Mollie
+Remove Vipre/WebRoot - Project Team
+Remove Desk Director - Project Team
+If Office 365, change passwords - Erika
+If office 365, have Erika cancel them in Synnex portal - Erika
+Expirations - vCIO
+Remove SW from GMS - Project Team
+Decommission BRAV - Project Team
+Decommision or transfer Datto BCDR - Project Team
+Disable Datto / ConnectWise Integration - Project Team
+Remove client from Backupify (365 backup) - Project Team
 Provide password information only if asked to provide it - Project Team
 Remove agent from server and PCs - Project Team
 Remove End Users from Continuum Portal - Project Team
