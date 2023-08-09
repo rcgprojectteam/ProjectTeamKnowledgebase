@@ -1,12 +1,22 @@
-| Task | Owner |
-| Make sure all entries are billed at $150/hr | Erika |
-|   Accounting: perform these tasks when a client leaves   |    Erika |
+| Task                                                        | Owner        |
+| ----------------------------------------------------------- | ------------ |
+| Make sure all entries are billed at $150/hr                 | Erika        |
+| Accounting: perform these tasks when a client leaves        | Erika        |
+| Remove client from email list (Marketing)                   | Mollie       |
+| Remove Vipre/WebRoot                                        | Project Team |
+| Remove Desk Director                                        | Project Team |
+| If Office 365, change passwords                             | Project Team |
+| if office 365, have Erika cancel them in Synnex/PAX8 portal | Erika        |
+| Expirations                                                 | vCIO         |
+| Remove SW from GMS/NSM                                      | Project Team |
+| Decommission BRaV                                           | Project Team |
+| Decommission or transfer Datto BCDR                         | Project Team |
+| Disable Datto / ConnectWise integration                     | Project Team |
+| Remove client from Backupify                                                            |              |
 
 
- - 
-Remove client from email list (Marketing) - Mollie
-Remove Vipre/WebRoot - Project Team
-Remove Desk Director - Project Team
+
+ - Project Team
 If Office 365, change passwords - Erika
 If office 365, have Erika cancel them in Synnex portal - Erika
 Expirations - vCIO
