@@ -84,7 +84,50 @@ new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPP
 
 ```
 
+```Registry Keys:
+Windows Registry Editor Version 5.00
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\QoS]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\QoS\Teams Sharing]
+"Version"="1.0"
+"Application Name"="teams.exe"
+"Protocol"="*"
+"Local Port"="50040:50059"
+"Local IP"="*"
+"Local IP Prefix Length"="*"
+"Remote Port"="*"
+"Remote IP"="*"
+"Remote IP Prefix Length"="*"
+"DSCP Value"="18"
+"Throttle Rate"="-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\QoS\Teams Video QoS]
+"Version"="1.0"
+"Application Name"="teams.exe"
+"Protocol"="*"
+"Local Port"="50020:50039"
+"Local IP"="*"
+"Local IP Prefix Length"="*"
+"Remote Port"="*"
+"Remote IP"="*"
+"Remote IP Prefix Length"="*"
+"DSCP Value"="34"
+"Throttle Rate"="-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\QoS\Teams Voice QoS]
+"Version"="1.0"
+"Application Name"="teams.exe"
+"Protocol"="*"
+"Local Port"="50000:50019"
+"Local IP"="*"
+"Local IP Prefix Length"="*"
+"Remote Port"="*"
+"Remote IP"="*"
+"Remote IP Prefix Length"="*"
+"DSCP Value"="46"
+"Throttle Rate"="-1"
+```
 <iframe width="1400" height="900" src="https://learn.microsoft.com/en-us/microsoftteams/qos-in-teams">title="Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
