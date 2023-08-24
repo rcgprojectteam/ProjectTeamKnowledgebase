@@ -25,5 +25,7 @@ Check that WinRM is running on both sides. Verify they are domain joined, ping r
 If that does not work, set this on remote server (administrative powershell):
 Enable-WSManCredSSP -Role server
 
-Then set these on the local machine that you are running HyperV manager from (administrative powershell, no quotes):
-"Set-Item WSMan:\localhost\Client\TrustedHosts -Value "fqdn-of-hyper-v-host""
+Then set these on the local machine that you are running HyperV manager from (administrative powershell, obsidian is being difficult and taking out the slashes in the below example, check the MS link above or highlight it to see the slashes before locathost, client and trustedhosts):
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value "fqdn-of-hyper-v-host"
+Enable-WSManCredSSP -Role client -DelegateComputer "fqdn-of-hyper-v-host"
+
