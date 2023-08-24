@@ -29,4 +29,15 @@ Then set these on the local machine that you are running HyperV manager from (ad
 Set-Item WSMan:\localhost\Client\TrustedHosts -Value "fqdn-of-hyper-v-host"
 Enable-WSManCredSSP -Role client -DelegateComputer "fqdn-of-hyper-v-host"
 
-You can also try running the following, but it did not work for me. Again highlight 
+You can also try running the following, but it did not work for me. Again highlight the line below to see the slashes
+MOFCOMP %SYSTEMROOT%\System32\WindowsVirtualization.V2.mof
+
+I was unable to connect to winrm remotely to this computer without adding credentials. I tested this by running the following
+
+Enter-PSSession "some computer name"
+
+or
+$cred = get-credential
+Enter-PSSession "some computer name" -credential $cred
+
+
