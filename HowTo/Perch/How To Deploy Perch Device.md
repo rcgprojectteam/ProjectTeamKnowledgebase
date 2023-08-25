@@ -87,6 +87,11 @@ Get-VMNetworkAdapter -VMName "NAME OF THE PERCH SENSOR" | Where-Object -Property
 ```
 _Please note: These commands will enable the virtual switch to receive packets from the physical mirror port._
 
+```Powershell
+Get-VMNetworkAdapterVlan -VMName "NAME OF THE PERCH SENSOR" 
+```
+_Please note: The above command will check that the VLANs are configured correctly for the Perch Mirror port_
+
 7. In the right pane of Hyper-V manager, choose Virtual Switch Manager again
 8. Select the newly created Mirror_Switch
 9. Expand the Virtual Switch by selecting the + next to the switch name
