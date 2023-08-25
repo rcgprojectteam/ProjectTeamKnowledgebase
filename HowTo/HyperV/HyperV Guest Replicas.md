@@ -1,13 +1,13 @@
 #knowledgebase  _Your tags here_
 
 # Document Description
-HyperV Guests are created with a dynamic MAC address by default. This is fine if you are not replicating the 
+HyperV Guests are created with a dynamic MAC address by default. This is fine if you are not replicating the VM. If you are replacating the VM, then it is recommened to set teh MAC address to static so there are not issues with DHCP reservations or apps that require static MAC addressing
 
 # Header 1 Goal 1
-_A brief description on what the first goal is and/or information. **Make sure the text hugs the header in this format**_ 
+To do this, shut off the Guest OS before setting up replication. Then edit the settings, and go got Network Adapter > Advanced Featuers and select Static on the MAC address of the NIC. Repeat for each NIC. the you can enable replication
 
 ## Header 2 Step 1
-_Initial description of or information regarding step1_
+If you have already enabled replication, then you will need to remove the replication. After replication is removed, then you need to clean up the replica on the destination side. Removing a VM does not remove the files, so clean that up also. And once that is done you can go to the source host and re-replicate the 
 
 ### Header 3 Sidenotes, sub steps, or options
 _If a step has multiple options, sub steps or any side notes use header 3_
