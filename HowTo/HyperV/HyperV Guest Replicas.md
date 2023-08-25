@@ -10,7 +10,7 @@ To do this, shut off the Guest OS before setting up replication. Then edit the s
 The VM will still need to be powered down as above to set a Static MAC address. Once this is done run the following steps
 Run the following powershell command on the source virtual host to export all the VM names and MAC addresses.
 ```powershell
-get-vm | get-vmnetworkadapter | ft vmname, macaddress -autosize
+get-vm | get-vmnetworkadapter | ft vmname, macaddress, dynamicmacaddressenabled, switchid -autosize
 ```
 This will export a list like below:
 ```powershell
