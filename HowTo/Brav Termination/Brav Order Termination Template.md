@@ -8,9 +8,9 @@ Subject: Brav Order Termination:
 
 Continuum,
 
-Oder#: 
+Order#: 
 
-Oder Date: 
+Order Date: 
 
 Appliance Name: 
 
