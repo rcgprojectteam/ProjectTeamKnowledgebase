@@ -73,7 +73,7 @@ Fundamental Bandwidth HowTo:
 
 
 ## Teams Application packet marking
-The following will only result in the generated traffic (by the Teams Application) have appropriate DSCP flags.  W/O implementing L3 QoS rules on switches, routers, and firewalls, this will have no impact on traffic flow.
+The following will only result in the generated traffic (by the Teams Application) having appropriate DSCP flags.  W/O implementing QoS rules on switches, routers, and firewalls, this will have no impact on traffic flow.
 ```Powershell
 #-------------------------------------------------------------------------------------------------------------------------
 new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
