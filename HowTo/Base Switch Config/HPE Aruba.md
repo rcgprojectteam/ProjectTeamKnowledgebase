@@ -75,6 +75,8 @@ interface vlan 2318
    exit
 write memory 
 
+=======
+Note:  In order the the remote syslog to work, we must update the syslog configuration on our syslog collector.  As of 9/2023,
 Other Commands
 ===========
 management-vlan 1031
