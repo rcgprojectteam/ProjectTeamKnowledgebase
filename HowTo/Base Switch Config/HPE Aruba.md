@@ -76,7 +76,9 @@ interface vlan 2318
 write memory 
 
 =======
-Note:  In order the the remote syslog to work, we must update the syslog configuration on our syslog collector.  As of 9/2023,
+**Note:  In order for the remote syslog to work, we must update the syslog configuration on our syslog collector.  As of 9/2023 this lives at the AWS server known as 'dewey'**
+=======
+
 Other Commands
 ===========
 management-vlan 1031
