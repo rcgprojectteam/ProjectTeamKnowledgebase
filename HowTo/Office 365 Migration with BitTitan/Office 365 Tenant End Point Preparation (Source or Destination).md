@@ -1,4 +1,6 @@
 #BitTitan #migration #o365 #Office365
+Overview:  This document describes how to connect BitTitan MigrationWiz email migration tools to Microsoft Office 365 using modern authentication. 
+
 
 ## Prerequisites:
 User account 'migration@domain.com' account must have long complex password as we will be creating a conditional policy to shut off MFA enforcement for the account.
