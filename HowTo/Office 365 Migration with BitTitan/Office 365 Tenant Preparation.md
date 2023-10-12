@@ -8,7 +8,7 @@ Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to c
 Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
 1. Click 'Add Group'
 2. Select 'Mail-enabled security' select next.
-3. Give the group a reasonable name like 'impersonation', 'o365migration', or 'mig'
+3. Give the group a reasonable name like 'impersonation', 'o365migration', or 'migration'
 4. Give the group a reasonable description: Use for mail box impersonation by migration@clientdomain.com.
 5. Assign 'migration@clientdomain.com' as the owner. Select Next.
 6. Select next on 'add members' we will add members later with a power shell script.
@@ -31,4 +31,7 @@ Get-OrganizationConfig | fl IsDehydrated
 ```
 Enable-OrganizationCustomization
 ```
-4. Retrieve the *DistinguishedName* property of the Group by using the **Get-DistributionGroup** command:
+4. Retrieve the *DistinguishedName* property of the Mail Enabled Security Group created in part 1 by using this command wit the correct group name you chosen:
+```
+Get-DistributionGroup -Identity "migration" |fl name, dist*
+```
