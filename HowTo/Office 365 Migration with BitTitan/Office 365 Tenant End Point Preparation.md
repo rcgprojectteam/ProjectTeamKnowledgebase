@@ -65,6 +65,7 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 
 ### References: 
 [MigrationWiz Impersonation and Delegation for Microsoft 365 & Exchange Migrations](https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1)
+
 # Exchange Online EWS Modern Authentication Requirements and API Configuration
 	The steps listed below apply to both the source and/or destination tenant when they are Exchange Online, in regards to Exchange Web Services (EWS) in mailbox, archive mailbox, and public folder projects. Use a Global Administrator for the configuration steps.
 	
