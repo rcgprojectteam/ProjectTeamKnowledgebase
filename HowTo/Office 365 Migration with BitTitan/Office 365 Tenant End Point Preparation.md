@@ -125,7 +125,13 @@ API Application Registration
 12. Select Save.
 ![[azureAppReg4.png]]
 13. From the Manage menu select 'API Permissions'
-14. Select 'Add a Permission' a fly0ot o nthe ri
+14. Select 'Add a Permission' a fly0ot on the right will appear.
+15. Select 'API's my organization uses'
+16. Scroll down and Select 'Office 365 Exchange Online'
+17. Select 'Delegated permissions'
+18. Select 'EWS'
+19. Select 'EWS.AccessAsUser.All'
+20. Select 'Add Permission'
 
 
 
