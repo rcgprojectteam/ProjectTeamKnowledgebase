@@ -33,7 +33,7 @@ Connect-ExchangeOnline
 ```
 Get-OrganizationConfig | fl IsDehydrated  
 ```
-3. If false run this command:
+3. If True run this command:
 ```
 Enable-OrganizationCustomization
 ```
@@ -65,3 +65,4 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 
 ### References: 
 [MigrationWiz Impersonation and Delegation for Microsoft 365 & Exchange Migrations](https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1)
+# 
