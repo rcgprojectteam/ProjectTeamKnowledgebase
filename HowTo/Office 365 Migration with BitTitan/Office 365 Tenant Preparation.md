@@ -23,5 +23,12 @@ Prerequisites: prepared mailbox list in text file, latest exchange online PowerS
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline
 ```
-2. Determine if Organization Customization is turned on:
-3. 
+2. Determine if Organization Customization is turned on: (True means organizational customization hasn't been enabled yet, while false means it has been enabled.)
+```
+Get-OrganizationConfig | fl IsDehydrated  
+```
+3. If false run this command:
+```
+Enable-OrganizationCustomization
+```
+4. Retrieve the *DistinguishedName* property of the Group by using the **Get-DistributionGroup** command:
