@@ -31,21 +31,22 @@ Get-OrganizationConfig | fl IsDehydrated
 ```
 Enable-OrganizationCustomization
 ```
-4. Retrieve the *DistinguishedName* property of the Mail Enabled Security Group created in part 1 by using this command wit the correct group name you chosen:
+4. Retrieve the *DistinguishedName* property of the Mail Enabled Security Group created in (Part 1) by using this command wit the correct group name you chosen:
 ```
 Get-DistributionGroup -Identity "migration" |fl name, dist*
 ```
-5. Output will look something like this:
+Example Output:
 ![[migration-group.png]]
-6. Copy DisginguishedName value to notepad. 
+5. Copy DisginguishedName value to notepad. 
 7. Create a management scope: (use DisginguishedName value copied to your note pad.)
 ```
 New-ManagementScope "YourScopeName" -RecipientRestrictionFilter {MemberOfGroup -eq 'YourGroupDistinguisedName'}
 ```
 Example:
 ![[migration-managementscope.png]]
-
-1. Create the Management Role Assignment with this command:
+8. Create the Management Role Assignment with this command: 
 ```
 `New-ManagementRoleAssignment -Name "O365MigrationProject" -Role "ApplicationImpersonation" -User "migration@clientdomain.com" -CustomRecipientWriteScope "YourManagementScope"`
 ```
+Example:
+![[migration-managementrole.png]]
