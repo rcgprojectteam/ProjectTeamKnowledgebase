@@ -35,5 +35,13 @@ Enable-OrganizationCustomization
 ```
 Get-DistributionGroup -Identity "migration" |fl name, dist*
 ```
-5 Output will look something like this:
+5. Output will look something like this:
 ![[migration-group.png]]
+6. Copy DisginguishedName value to notepad. 
+7. Create a management scope: (used)
+
+
+1. Create the Management Role Assignment with this command:
+```
+`New-ManagementRoleAssignment -Name "O365MigrationProject" -Role "ApplicationImpersonation" -User "migration@clientdomain.com" -CustomRecipientWriteScope "YourManagementScope"`
+```
