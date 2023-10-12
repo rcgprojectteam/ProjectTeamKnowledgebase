@@ -4,7 +4,7 @@ Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to c
 
 
 # Mailbox Impersonation
-## Web UI preparation - Setup mail enabled security group to enable mailbox impersonation. (Part 1)
+## Web UI preparation - Scoped Impersonation with EWS. (Part 1)
 Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
 1. Click 'Add Group'
 2. Select 'Mail-enabled security' select next.
@@ -16,5 +16,14 @@ Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled securi
 8. Click Create Group.
 9. Refresh the group lists then edit the group you just created.
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
-## PowerShell preparation - Setup mail enabled security group to enable mailbox impersonation. (Part 2)
+## PowerShell preparation - Scoped Impersonation with EWS. (Part 2)
 Prerequisites: prepared mailbox list in text file, latest exchange online PowerShell module.
+
+
+
+
+
+
+
+```Powershell
+Script goes here.
