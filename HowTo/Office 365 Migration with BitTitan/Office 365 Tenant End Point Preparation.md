@@ -134,7 +134,9 @@ API Application Registration
 20. Select 'Add Permission'
 ![[azureAppReg5.png]]
 21. Select Grant admin consent for tenant name.
-22
 ![[azureAppReg6.png]]
+22: Go back over to the BitTitan Webpage for the migration project.
+
+
 ### References:
 [Modern Authentication Requirements](https://help.bittitan.com/hc/en-us/articles/360049370794-G-Suite-Gmail-API-to-Exchange-Online-Microsoft-365-Migration-Guide#h_01HAMWZ83J32EESZB1YMYCP07E)
