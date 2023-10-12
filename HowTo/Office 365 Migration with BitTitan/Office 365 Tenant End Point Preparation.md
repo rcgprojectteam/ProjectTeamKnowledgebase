@@ -1,4 +1,4 @@
-Prerequisites:
+## Prerequisites:
 User account 'migration@domain.com' account must have long complex password as we will be creating a conditional policy to shut off MFA enforcement for the account.
 Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to create conditional access policies.  
 
@@ -62,7 +62,6 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 ```
 
 **TO BE UPDATED WITH EXAMPLE**
-
 
 ### References: 
 [MigrationWiz Impersonation and Delegation for Microsoft 365 & Exchange Migrations](https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1)
