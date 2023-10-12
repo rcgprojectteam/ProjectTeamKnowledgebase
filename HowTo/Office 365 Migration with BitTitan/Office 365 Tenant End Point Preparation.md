@@ -81,8 +81,9 @@ Location: Office365\Microsoft Entra Admin Center\Protection\Conditional Access\
 
 Conditional AccessPolicy Setup:
 1. Select 'Create New Policy'
-2. Name the policy something relevant: 'MFA Conditional Access'
-3. Under Users: Include Select 'all users' under Exclude select 'Users and groups' then add your migration account to the exclude list.
-4. Grant: Select 'Grant Access' then select 'Require multifactor authentication.'
-5. Save your policy. (Policy can take 15+ minutes to populate.)
-6. Verify MFA is disabled for the migration@clientdomain.com user account via the Office365 admin center and test migration account login to Office 365. 
+![[conditionalaccess1.png]]
+3. Name the policy something relevant: 'MFA Conditional Access'
+4. Under Users: Include Select 'all users' under Exclude select 'Users and groups' then add your migration account to the exclude list.
+5. Grant: Select 'Grant Access' then select 'Require multifactor authentication.'
+6. Save your policy. (Policy can take 15+ minutes to populate.)
+7. Verify MFA is disabled for the migration@clientdomain.com user account via the Office365 admin center and test migration account login to Office 365. 
