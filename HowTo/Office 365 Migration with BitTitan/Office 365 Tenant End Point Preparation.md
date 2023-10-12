@@ -114,7 +114,9 @@ API Application Registration
 4. Select 'New Registration'
 ![[azureAppReg1.png]]
 5. Give the application registration a distinct name.
-6. Select 'Accounts in any organizational directory (Any Mi)'
+6. Select 'Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant)'
+7. Under Redirect URI select 'Public client/native (mobile & desktop)' then enter this URI: urn:ietf:wg:oauth:2.0:oob
+8. Select Register
 
 
 
