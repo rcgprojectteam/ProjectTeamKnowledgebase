@@ -2,8 +2,8 @@
 Overview:  This document describes how to connect BitTitan MigrationWiz email migration tools to Microsoft Office 365 using modern authentication.
 
 ## Prerequisites:
-User account 'migration@clientdomain.com' account must have long complex password as we will be creating a conditional policy to shut off MFA enforcement for the account.
-Tenant must have a Microsoft Entra ID P2 license or equivalent to be able to create conditional access policies.  
+- User account 'migration@clientdomain.com' account must have long complex password as we will be creating a conditional policy to shut off MFA enforcement for the account.
+- Tenant must have a Microsoft Entra ID P2 license or equivalent to be able to create conditional access policies.  
 
 # Mailbox Impersonation
 ## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
@@ -21,7 +21,7 @@ Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled securi
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
 
 ## 2. PowerShell preparation - Scoped Impersonation with EWS. (Part 2)
-Prerequisites: prepared mailbox list in text file, latest exchange online PowerShell module.
+Prerequisites: prepared mailbox list in csv text file, latest exchange online PowerShell module.
 
 1. Connect to Exchange online with tenant admin creds:
 ```Powershell
@@ -65,10 +65,10 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 [MigrationWiz Impersonation and Delegation for Microsoft 365 & Exchange Migrations](https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1)
 
 # Exchange Online EWS Modern Authentication Requirements and API Configuration
-> The steps listed below apply to both the source and/or destination tenant when they are Exchange Online, in regards to Exchange Web Services (EWS) in mailbox, archive mailbox, and public folder projects. Use a Global Administrator for the configuration steps.
-> The administrator account being used for the project needs to be excluded from any MFA/2FA policies or Conditional Access policies that can block access for the administrator account. This requirement does not apply to the items or users being migrated in the project.
-> Configuring Modern Authentication to work with MigrationWiz for mailbox, archive mailbox, and public folder projects in Exchange Online is now the default method after Microsoft discontinued support for Basic Authentication in Exchange Online after December 2022.
-> The **Azure Security Defaults** must also be disabled in the tenant. (This is often enabled by default for all new Exchange Online tenants and there is **no** workaround for this requirement).
+> - The steps listed below apply to both the source and/or destination tenant when they are Exchange Online, in regards to Exchange Web Services (EWS) in mailbox, archive mailbox, and public folder projects. Use a Global Administrator for the configuration steps.
+> - The administrator account being used for the project needs to be excluded from any MFA/2FA policies or Conditional Access policies that can block access for the administrator account. This requirement does not apply to the items or users being migrated in the project.
+> - Configuring Modern Authentication to work with MigrationWiz for mailbox, archive mailbox, and public folder projects in Exchange Online is now the default method after Microsoft discontinued support for Basic Authentication in Exchange Online after December 2022.
+> - The **Azure Security Defaults** must also be disabled in the tenant. (This is often enabled by default for all new Exchange Online tenants and there is **no** workaround for this requirement).
 
 ## Disable Azure Security Defaults
 Location: Office365\Microsoft Entra Admin Center\Overview\
