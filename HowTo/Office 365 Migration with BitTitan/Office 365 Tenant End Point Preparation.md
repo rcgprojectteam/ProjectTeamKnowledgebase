@@ -138,11 +138,19 @@ API Application Registration
 22. Go back over to the BitTitan Webpage for the migration project.
 23. Select the Pencil icon to Edit the project.
 ![[azureAppReg7.png]]
-
-
-
+24. Select 'Advanced Options'
 ![[azureAppReg8.png]]
-
+25. Under support options you will add fields. Use the Application (Client) ID and Directory (tenant) ID you copied into your notepad on step 9.
+```
+If enabling Modern Authentication for the Source:
+ModernAuthClientIdExport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+ModernAuthTenantIdExport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+```
+```
+If enabling Modern Authentication for the Destination:
+ModernAuthClientIdImport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+ModernAuthTenantIdImport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+```
 
 
 ### References:
