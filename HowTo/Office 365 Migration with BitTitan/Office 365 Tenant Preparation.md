@@ -17,4 +17,4 @@ Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled securi
 9. Refresh the group lists then edit the group you just created.
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
 ## PowerShell preparation - Setup mail enabled security group to enable mailbox impersonation. (Part 2)
-Prerequisites: prepared mailbox list in text file, exchange
+Prerequisites: prepared mailbox list in text file, latest exchange online PowerShell module.
