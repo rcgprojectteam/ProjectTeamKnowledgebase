@@ -107,7 +107,7 @@ Conditional AccessPolicy Setup:
 ## API Application Registration
 Location: Office365\Microsoft Entra Admin Center\Applications\App Registrations\
 
-
+API Application Re
 
 
 
