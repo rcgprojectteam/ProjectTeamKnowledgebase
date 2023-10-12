@@ -12,5 +12,9 @@ Location: Office365/Echange Admin Center//Recipients/Groups/Mail-enabled securit
 4. Give the group a reasonable description: Use for mail box impersonation by migration@clientdomain.com.
 5. Assign 'migration@clientdomain.com' as the owner. Select Next.
 6. Select next on 'add members' we will add members later with a power shell script.
-7. Give the group an reasonable email address 'impersonation@clientdomain.com', 'mig@clientdomain.com', etc. Do not allow people from outside the organization to  send email to this mail-enabled security group. Do not require approval to join the group.
-8. 
+7. Give the group an reasonable email address 'impersonation@clientdomain.com', 'mig@clientdomain.com', etc. Do not allow people from outside the organization to  send email to this mail-enabled security group. Do not require approval to join the group. Select Next.
+8. Click Create Group.
+9. Refresh the group lists then edit the group you just created.
+10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
+11. 
+12. 
