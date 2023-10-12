@@ -135,7 +135,14 @@ API Application Registration
 ![[azureAppReg5.png]]
 21. Select Grant admin consent for tenant name.
 ![[azureAppReg6.png]]
-22: Go back over to the BitTitan Webpage for the migration project.
+22. Go back over to the BitTitan Webpage for the migration project.
+23. Select the Pencil icon to Edit the project.
+![[azureAppReg7.png]]
+
+
+
+![[azureAppReg8.png]]
+
 
 
 ### References:
