@@ -23,4 +23,5 @@ Prerequisites: prepared mailbox list in text file, latest exchange online PowerS
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline
 ```
-2. 
+2. Determine if Organization Customization is turned on:
+3. 
