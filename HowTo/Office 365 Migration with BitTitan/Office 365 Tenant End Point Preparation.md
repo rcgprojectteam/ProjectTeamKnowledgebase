@@ -43,7 +43,7 @@ Get-DistributionGroup -Identity "migration" |fl name, dist*
 New-ManagementScope "YourScopeName" -RecipientRestrictionFilter {MemberOfGroup -eq 'YourGroupDistinguisedName'}
 ```
 Example:
-
+![[migration-managementscope.png]]
 
 1. Create the Management Role Assignment with this command:
 ```
