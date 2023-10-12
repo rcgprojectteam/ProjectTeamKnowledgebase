@@ -90,3 +90,6 @@ Conditional AccessPolicy Setup:
 ![[conditionalaccess4.png]]
 7. Save your policy. (Policy can take 15+ minutes to populate.)
 8. Verify MFA is disabled for the migration@clientdomain.com user account via the Office365 admin center and test migration account login to Office 365. 
+
+## API Application Registration
+Location: 
