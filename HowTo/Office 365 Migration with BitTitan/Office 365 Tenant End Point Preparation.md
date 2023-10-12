@@ -151,6 +151,8 @@ If enabling Modern Authentication for the Destination:
 ModernAuthClientIdImport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ModernAuthTenantIdImport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
+26. Save the changes.
+![[azureAppReg9.png]]
 
 
 ### References:
