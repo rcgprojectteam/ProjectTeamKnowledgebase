@@ -57,8 +57,7 @@ Example:
 ```
 Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Identity “GroupName” -Member $_.alias}
 ```
-
-**TO BE UPDATED WITH EXAMPLE**
+**TO BE UPDATED WITH EXAMPLE!**
 
 ### References:
 [MigrationWiz Impersonation and Delegation for Microsoft 365 & Exchange Migrations](https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1)
@@ -157,3 +156,4 @@ ModernAuthTenantIdImport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 ### References:
 [Modern Authentication Requirements](https://help.bittitan.com/hc/en-us/articles/360049370794-G-Suite-Gmail-API-to-Exchange-Online-Microsoft-365-Migration-Guide#h_01HAMWZ83J32EESZB1YMYCP07E)
+[Common Errors Encountered in MigrationWiz while using Modern Authentication for EWS](https://help.bittitan.com/hc/en-us/articles/14019211860251-Most-Common-Errors-Encountered-in-MigrationWiz-while-using-Modern-Authentication-for-EWS-in-Exchange-Online#aadsts50020-0-1)
