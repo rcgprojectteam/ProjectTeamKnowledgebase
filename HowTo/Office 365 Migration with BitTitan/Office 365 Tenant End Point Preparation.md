@@ -4,8 +4,11 @@ Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to c
 
 
 # Mailbox Impersonation
-## Web UI preparation - Scoped Impersonation with EWS. (Part 1)
+
+## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
+
 Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
+
 1. Click 'Add Group'
 2. Select 'Mail-enabled security' select next.
 3. Give the group a reasonable name like 'impersonation', 'o365migration', or 'migration'
@@ -16,8 +19,11 @@ Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled securi
 8. Click Create Group.
 9. Refresh the group lists then edit the group you just created.
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
-## PowerShell preparation - Scoped Impersonation with EWS. (Part 2)
+
+## 2. PowerShell preparation - Scoped Impersonation with EWS. (Part 2)
+
 Prerequisites: prepared mailbox list in text file, latest exchange online PowerShell module.
+
 1. Connect to Exchange online with tenant admin creds:
 ```Powershell
 Import-Module ExchangeOnlineManagement
@@ -38,15 +44,22 @@ Get-DistributionGroup -Identity "migration" |fl name, dist*
 Example Output:
 ![[migration-group.png]]
 5. Copy DisginguishedName value to notepad. 
-7. Create a management scope: (use DisginguishedName value copied to your note pad.)
+6. Create a management scope: (use DisginguishedName value copied to your note pad.)
 ```
 New-ManagementScope "YourScopeName" -RecipientRestrictionFilter {MemberOfGroup -eq 'YourGroupDistinguisedName'}
 ```
 Example:
 ![[migration-managementscope.png]]
-8. Create the Management Role Assignment with this command: 
+7. Create the Management Role Assignment with this command: 
 ```
 `New-ManagementRoleAssignment -Name "O365MigrationProject" -Role "ApplicationImpersonation" -User "migration@clientdomain.com" -CustomRecipientWriteScope "YourManagementScope"`
 ```
 Example:
 ![[migration-managementrole.png]]
+
+
+
+
+
+###References: 
+https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1
