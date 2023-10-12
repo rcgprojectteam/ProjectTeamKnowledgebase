@@ -18,12 +18,9 @@ Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled securi
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
 ## PowerShell preparation - Scoped Impersonation with EWS. (Part 2)
 Prerequisites: prepared mailbox list in text file, latest exchange online PowerShell module.
-
-
-
-
-
-
-
+1. Connect to Exchange online with tenant admin creds:
 ```Powershell
-Script goes here.
+Import-Module ExchangeOnlineManagement
+Connect-ExchangeOnline
+```
+2. 
