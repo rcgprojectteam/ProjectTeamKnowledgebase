@@ -65,4 +65,12 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 
 ### References: 
 [MigrationWiz Impersonation and Delegation for Microsoft 365 & Exchange Migrations](https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1)
-# 
+# Exchange Online EWS Modern Authentication Requirements and API Configuration
+	The steps listed below apply to both the source and/or destination tenant when they are Exchange Online, in regards to Exchange Web Services (EWS) in mailbox, archive mailbox, and public folder projects. Use a Global Administrator for the configuration steps.
+	
+	The administrator account being used for the project needs to be excluded from any MFA/2FA policies or Conditional Access policies that can block access for the administrator account. This requirement does not apply to the items or users being migrated in the project.
+	
+	Configuring Modern Authentication to work with MigrationWiz for mailbox, archive mailbox, and public folder projects in Exchange Online is now the default method after Microsoft discontinued support for Basic Authentication in Exchange Online after December 2022.
+
+	The **Azure Security Defaults** must also be disabled in the tenant. (This is often enabled by default for all new Exchange Online tenants and there is **no** workaround for this requirement).
+
