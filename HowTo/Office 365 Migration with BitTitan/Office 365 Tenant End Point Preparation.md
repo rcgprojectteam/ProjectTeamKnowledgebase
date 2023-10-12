@@ -75,3 +75,5 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 
 	The **Azure Security Defaults** must also be disabled in the tenant. (This is often enabled by default for all new Exchange Online tenants and there is **no** workaround for this requirement).
 
+##Conditional Access Policy Setup
+Location: Microsoft Entra Admin Center\Protection\Conditional Access
