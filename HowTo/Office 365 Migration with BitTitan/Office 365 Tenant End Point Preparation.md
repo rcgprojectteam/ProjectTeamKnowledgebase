@@ -4,9 +4,7 @@ Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to c
 
 
 # Mailbox Impersonation
-
 ## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
-
 Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
 
 1. Click 'Add Group'
@@ -21,7 +19,6 @@ Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled securi
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
 
 ## 2. PowerShell preparation - Scoped Impersonation with EWS. (Part 2)
-
 Prerequisites: prepared mailbox list in text file, latest exchange online PowerShell module.
 
 1. Connect to Exchange online with tenant admin creds:
@@ -63,7 +60,7 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 
 **TO BE UPDATED WITH EXAMPLE**
 
-### References: 
+### References:
 [MigrationWiz Impersonation and Delegation for Microsoft 365 & Exchange Migrations](https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1)
 
 # Exchange Online EWS Modern Authentication Requirements and API Configuration
@@ -109,3 +106,6 @@ Conditional AccessPolicy Setup:
 
 ## API Application Registration
 Location: Office365\Microsoft Entra Admin Center\Applications\App Registrations\
+
+### References:
+[Modern Authentication Requirements](https://help.bittitan.com/hc/en-us/articles/360049370794-G-Suite-Gmail-API-to-Exchange-Online-Microsoft-365-Migration-Guide#h_01HAMWZ83J32EESZB1YMYCP07E)
