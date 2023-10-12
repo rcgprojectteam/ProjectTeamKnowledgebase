@@ -117,8 +117,9 @@ API Application Registration
 6. Select 'Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant)'
 7. Under Redirect URI select 'Public client/native (mobile & desktop)' then enter this URI: urn:ietf:wg:oauth:2.0:oob
 8. Select Register
-
-
+![[azureAppReg2.png]]
+9. Drill down into the new app registration you just created. Find Application (Client) ID and Directory (tenant) ID. Copy these two GUID's to a notepad these will be used to update the advance configuration in BitTitan.
+10. 
 
 
 
