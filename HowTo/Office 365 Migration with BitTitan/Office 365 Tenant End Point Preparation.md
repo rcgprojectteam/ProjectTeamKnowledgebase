@@ -82,6 +82,11 @@ Location: Office365\Microsoft Entra Admin Center\Protection\
 Prerequisite: Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to create conditional access policies.  
 Location: Office365\Microsoft Entra Admin Center\Protection\Conditional Access\
 
+1. Select Overview
+2. Then Select 'Properties'
+3. At the bottom of the page then select 'Manage Security Defaults' 
+
+
 Conditional AccessPolicy Setup:
 1. Select 'Create New Policy'
 ![[conditionalaccess1.png]]
