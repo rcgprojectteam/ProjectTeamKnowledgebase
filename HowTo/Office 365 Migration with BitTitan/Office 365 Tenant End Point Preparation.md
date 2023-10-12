@@ -107,8 +107,14 @@ Conditional AccessPolicy Setup:
 ## API Application Registration
 Location: Office365\Microsoft Entra Admin Center\Applications\App Registrations\
 
-API Application Re
-
+API Application Registration
+1. Go to Microsoft Entra Admin Center
+2. Select 'Applications'
+3. Select 'App Registrations'
+4. Select 'New Registration'
+![[azureAppReg1.png]]
+5. Give the application registration a distinct name.
+6. Select 'Accounts in any organizational directory (Any Mi)'
 
 
 
