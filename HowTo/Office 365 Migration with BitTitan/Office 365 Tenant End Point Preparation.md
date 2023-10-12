@@ -122,7 +122,10 @@ API Application Registration
 ![[azureAppReg3.png]]
 10. Under the Manage menu select 'Authentication'
 11. Select 'Allow public client flows' to Yes.
-
+12. Select Save.
+![[azureAppReg4.png]]
+13. From the Manage menu select 'API Permissions'
+14. Select 'Add a Permission' a fly0ot o nthe ri
 
 
 
