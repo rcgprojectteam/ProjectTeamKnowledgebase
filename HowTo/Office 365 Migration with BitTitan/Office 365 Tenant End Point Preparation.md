@@ -107,5 +107,14 @@ Conditional AccessPolicy Setup:
 ## API Application Registration
 Location: Office365\Microsoft Entra Admin Center\Applications\App Registrations\
 
+
+
+
+
+
+
+
+
+
 ### References:
 [Modern Authentication Requirements](https://help.bittitan.com/hc/en-us/articles/360049370794-G-Suite-Gmail-API-to-Exchange-Online-Microsoft-365-Migration-Guide#h_01HAMWZ83J32EESZB1YMYCP07E)
