@@ -125,15 +125,16 @@ API Application Registration
 12. Select Save.
 ![[azureAppReg4.png]]
 13. From the Manage menu select 'API Permissions'
-14. Select 'Add a Permission' a fly0ot on the right will appear.
+14. Select 'Add a Permission' a fly-out on the right will appear.
 15. Select 'API's my organization uses'
 16. Scroll down and Select 'Office 365 Exchange Online'
 17. Select 'Delegated permissions'
 18. Select 'EWS'
 19. Select 'EWS.AccessAsUser.All'
 20. Select 'Add Permission'
-
-
-
+![[azureAppReg5.png]]
+21. Select Grant admin consent for tenant name.
+22
+![[azureAppReg6.png]]
 ### References:
 [Modern Authentication Requirements](https://help.bittitan.com/hc/en-us/articles/360049370794-G-Suite-Gmail-API-to-Exchange-Online-Microsoft-365-Migration-Guide#h_01HAMWZ83J32EESZB1YMYCP07E)
