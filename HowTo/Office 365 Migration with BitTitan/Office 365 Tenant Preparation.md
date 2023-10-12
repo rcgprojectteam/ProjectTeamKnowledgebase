@@ -38,7 +38,11 @@ Get-DistributionGroup -Identity "migration" |fl name, dist*
 5. Output will look something like this:
 ![[migration-group.png]]
 6. Copy DisginguishedName value to notepad. 
-7. Create a management scope: (used)
+7. Create a management scope: (use DisginguishedName value copied to your note pad.)
+```
+New-ManagementScope "YourScopeName" -RecipientRestrictionFilter {MemberOfGroup -eq 'YourGroupDistinguisedName'}
+```
+Example:
 
 
 1. Create the Management Role Assignment with this command:
