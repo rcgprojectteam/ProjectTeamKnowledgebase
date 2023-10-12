@@ -3,9 +3,9 @@ User account 'migration@domain.com' account must have long complex password as w
 Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to create conditional access policies.  
 
 
-# Mail Enabled Security Group
-Setup mail enabled security group to enable mailbox impersonation.
-Location: Office365/Echange Admin Center//Recipients/Groups/Mail-enabled security.
+# Mailbox Impersonation
+## Web UI preparation - Setup mail enabled security group to enable mailbox impersonation. (Part 1)
+Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
 1. Click 'Add Group'
 2. Select 'Mail-enabled security' select next.
 3. Give the group a reasonable name like 'impersonation', 'o365migration', or 'mig'
@@ -16,5 +16,5 @@ Location: Office365/Echange Admin Center//Recipients/Groups/Mail-enabled securit
 8. Click Create Group.
 9. Refresh the group lists then edit the group you just created.
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
-11. 
-12. 
+## PowerShell preparation - Setup mail enabled security group to enable mailbox impersonation. (Part 2)
+Prerequisites: prepared mailbox list in text file, exchange
