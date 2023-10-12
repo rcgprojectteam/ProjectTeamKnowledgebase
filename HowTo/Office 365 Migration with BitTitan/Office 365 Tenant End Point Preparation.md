@@ -56,9 +56,12 @@ Example:
 ```
 Example:
 ![[migration-managementrole.png]]
+8. Bulk add users to the mail-enabled security group:
+```
+Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Identity “GroupName” -Member $_.alias}
+```
 
-
-
+**TO BE UPDATED WITH EXAMPLE**
 
 
 ### References: 
