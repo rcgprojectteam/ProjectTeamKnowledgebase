@@ -75,5 +75,11 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 
 	The **Azure Security Defaults** must also be disabled in the tenant. (This is often enabled by default for all new Exchange Online tenants and there is **no** workaround for this requirement).
 
-##Conditional Access Policy Setup
-Location: Microsoft Entra Admin Center\Protection\Conditional Access
+## Conditional Access Policy Setup
+Prerequisite: Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to create conditional access policies.  
+Location: Office365\Microsoft Entra Admin Center\Protection\Conditional Access\
+
+Conditional AccessPolicy Setup:
+1. Select 'Create New Policy'
+2. Name the policy something relevant: 'MFA Conditional Access'
+3. Under Users: Include 
