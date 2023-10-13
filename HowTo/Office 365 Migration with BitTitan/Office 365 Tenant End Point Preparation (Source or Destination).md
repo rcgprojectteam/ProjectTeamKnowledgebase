@@ -6,7 +6,7 @@ Overview:  This document describes how to connect BitTitan MigrationWiz email mi
 - Tenant must have a Microsoft Entra ID P2 license or equivalent to be able to create conditional access policies.  
 
 # Mailbox Impersonation
-**Overview:** We will create a Mail-enabled security group in the webui in part 1.  We will add one owner to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to their mailboxes.
+**Objective:** We will create a Mail-enabled security group in the Exchange Admin Center webui in part 1.  We will add one owner (tenant admin) to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to their mailboxes.
 
 ## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
 Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
