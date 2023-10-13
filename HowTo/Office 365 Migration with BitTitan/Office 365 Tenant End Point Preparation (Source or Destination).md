@@ -89,7 +89,7 @@ Example:
 Prerequisite: Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to create conditional access policies.  
 Location: Office365\Microsoft Entra Admin Center\Protection\Conditional Access\
 These instructions assume that this is a new tenant or a tenant that just had the Azure Security Default disabled.  Further careful analysis needs to be done to tenant that already have conditional access policies. 
-**Overview:** 
+**Overview:** We will create a new policy.  We will include or exclude users from that policy. We will Grant control access to enforce multifactor 
 
 Conditional AccessPolicy Setup:
 1. Select 'Create New Policy'
