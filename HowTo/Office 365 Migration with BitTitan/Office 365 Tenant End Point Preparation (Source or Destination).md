@@ -6,7 +6,7 @@ Overview:  This document describes how to connect BitTitan MigrationWiz email mi
 - Tenant must have a Microsoft Entra ID P2 license or equivalent to be able to create conditional access policies.  
 
 # Mailbox Impersonation
-Overview: We will create a Mail-enabled security group in the webui in part 1.  We will add one owner to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to their mail 
+**Overview:** We will create a Mail-enabled security group in the webui in part 1.  We will add one owner to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to their mailboxes.
 
 ## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
 Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
@@ -74,6 +74,7 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 
 ## Disable Azure Security Defaults
 Location: Office365\Microsoft Entra Admin Center\Overview\
+**Objective:** We will log into the Office 365 tenant then access Entra Admin center. We will disable Azure Security defaults for the tenant.
 
 Disable Azure Security Defaults:
 1. Select Overview
@@ -94,7 +95,7 @@ Prerequisite: Tenant must have a Microsoft Entra ID P2 license or equivalent - t
 
 **USE CAUTION - YOU HAVE BEEN WARNED!**
 
-**Overview:** We will create a new policy.  We will include or exclude users from that policy. We will Grant control access to enforce multifactor authentication. 
+**Objective:** We will create a new conditional access policy.  We will include or exclude users from that policy. We will Grant control access to enforce multifactor authentication. 
 
 Conditional AccessPolicy Setup:
 1. Select 'Create New Policy'
@@ -111,6 +112,8 @@ Conditional AccessPolicy Setup:
 
 ## API Application Registration
 Location: Office365\Microsoft Entra Admin Center\Applications\App Registrations\
+
+**Objective:** ADD DATA HERE.
 
 API Application Registration
 1. Go to Microsoft Entra Admin Center
