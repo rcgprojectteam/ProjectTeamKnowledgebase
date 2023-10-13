@@ -10,7 +10,7 @@ Overview:  This document describes how to connect BitTitan MigrationWiz email mi
 **Objective:** We will create a Mail-enabled security group in the Exchange Admin Center webui in part 1.  We will add one owner (tenant admin) to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to the user mailboxes.
 
 ## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
-Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
+Location: Office365/Exchange Admin Center/Recipients/Groups/Mail-enabled security.
 
 1. Click 'Add Group'
 2. Select 'Mail-enabled security' select next.
@@ -39,7 +39,7 @@ Get-OrganizationConfig | fl IsDehydrated
 ```
 Enable-OrganizationCustomization
 ```
-4. Retrieve the *DistinguishedName* property of the Mail Enabled Security Group created in (Part 1) by using this command wit the correct group name you chosen:
+4. Retrieve the *DistinguishedName* property of the Mail Enabled Security Group created in (Part 1) by using this command with the correct group name you chosen:
 ```
 Get-DistributionGroup -Identity "migration" |fl name, dist*
 ```
@@ -48,13 +48,13 @@ Example Output:
 5. Copy DisginguishedName value to notepad. 
 6. Create a management scope: (use DisginguishedName value copied to your note pad.)
 ```
-New-ManagementScope "YourScopeName" -RecipientRestrictionFilter {MemberOfGroup -eq 'YourGroupDistinguisedName'}
+New-ManagementScope "YourScopeName" -RecipientRestrictionFilter {MemberOfGroup -eq 'YourGroupDistinguishedName'}
 ```
 Example:
 ![[migration-managementscope.png]]
 7. Create the Management Role Assignment with this command: 
 ```
-`New-ManagementRoleAssignment -Name "O365MigrationProject" -Role "ApplicationImpersonation" -User "migration@clientdomain.com" -CustomRecipientWriteScope "YourManagementScope"`
+New-ManagementRoleAssignment -Name "O365MigrationProject" -Role "ApplicationImpersonation" -User "migration@clientdomain.com" -CustomRecipientWriteScope "YourManagementScope"
 ```
 Example:
 ![[migration-managementrole.png]]
