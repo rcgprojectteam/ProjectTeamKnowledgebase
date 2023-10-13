@@ -6,6 +6,8 @@ Overview:  This document describes how to connect BitTitan MigrationWiz email mi
 - Tenant must have a Microsoft Entra ID P2 license or equivalent to be able to create conditional access policies.  
 
 # Mailbox Impersonation
+Overview: We will create a Mail-enabled security group in the webui in part 1.  We will add one owner to the group.  In part 2 we will Create a new management scope and apply the impersonation role to the 
+
 ## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
 Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
 
@@ -87,9 +89,11 @@ Example:
 
 ## Conditional Access Policy Setup
 Prerequisite: Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to create conditional access policies.  
-Location: Office365\Microsoft Entra Admin Center\Protection\Conditional Access\
-*These instructions assume that this is a new tenant or a tenant that just had the Azure Security Default disabled.  Further careful analysis needs to be done to tenant that already have conditional access policies.
+**Location: Office365\Microsoft Entra Admin Center\Protection\Conditional Access\**
+- *These instructions assume that this is a new tenant or a tenant that just had the Azure Security Default disabled.  Further careful analysis needs to be done to tenant that already have conditional access policies configured!*
+
 **USE CAUTION - YOU HAVE BEEN WARNED!**
+
 **Overview:** We will create a new policy.  We will include or exclude users from that policy. We will Grant control access to enforce multifactor authentication. 
 
 Conditional AccessPolicy Setup:
