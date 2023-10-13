@@ -91,7 +91,7 @@ Example:
 
 ## Conditional Access Policy Setup
 Prerequisite: Tenant must have a Microsoft Entra ID P2 license or equivalent - to be able to create conditional access policies.  
-**Location: Office365\Microsoft Entra Admin Center\Protection\Conditional Access\**
+**Location: Office365\Microsoft Entra Admin Center\Protection\Conditional Access**
 - *These instructions assume that this is a new tenant or a tenant that just had the Azure Security Default disabled.  Further careful analysis needs to be done to tenant that already have conditional access policies configured!*
 
 **USE CAUTION - YOU HAVE BEEN WARNED!**
@@ -101,13 +101,13 @@ Prerequisite: Tenant must have a Microsoft Entra ID P2 license or equivalent - t
 Conditional AccessPolicy Setup:
 1. Select 'Create New Policy'
 ![[conditionalaccess1.png]]
-2. Name the policy something relevant: 'MFA Conditional Access'
+2. Name the policy something relevant: 'MFA Conditional Access'. Highlighted areas will need to be edited. 
 ![[conditionalaccess2.png]]
 3. Under Users: Include Select 'all users' under Exclude select 'Users and groups' then add your migration account to the exclude list.
 ![[conditionalaccess3a.png]]![[conditionalaccess3b.png]]
 5. Grant: Select 'Grant Access' then select 'Require multifactor authentication.'
 ![[conditionalaccess4.png]]
-7. Save your policy. (Policy can take 15+ minutes to populate.)
+7. Save your policy. (Policy propagation can take 15+ minutes.)
 8. Verify MFA is disabled for the migration@clientdomain.com user account via the Office365 admin center and test migration account login to Office 365. 
 
 
