@@ -114,7 +114,7 @@ Conditional AccessPolicy Setup:
 ## API Application Registration
 Location: Office365\Microsoft Entra Admin Center\Applications\App Registrations\
 
-**Objective:** we will log into Office 365 then access the Entra Admin center.  We will create a new Application registration. We will then add API permission for Office 365 Exchange Online with delegated permissions to EWS. We will then grant Admin consent to the API.  This application registration allows BitTitan to access the Office365 tenant. 
+**Objective:** we will log into Office 365 then access the Entra Admin center.  We will create a new Application registration. We will then add API permission for Office 365 Exchange Online with delegated permissions to EWS. We will then grant Admin consent to the API.  This application registration allows BitTitan to access the Office365 tenant.  Once the Application registration is complete we will move over to the BitTitan Web Interface and add the ModernAuth Keys to the migration project's advanced properties.
 
 API Application Registration
 1. Go to Microsoft Entra Admin Center
