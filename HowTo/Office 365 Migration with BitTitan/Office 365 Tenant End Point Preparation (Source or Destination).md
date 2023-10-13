@@ -149,7 +149,7 @@ API Application Registration
 ![[azureAppReg7.png]]
 24. Select 'Advanced Options'
 ![[azureAppReg8.png]]
-25. Under support options you will add fields. Use the Application (Client) ID and Directory (tenant) ID you copied into your notepad on step 9. Pay VERY careful attention to the Source and Destination!
+25. Under support options you will add fields. Use the Application (Client) ID and Directory (tenant) ID you copied into your notepad on step 9. Pay VERY careful attention to the Source and Destination! Press + icon to add new lines to support options.
 ```
 If enabling Modern Authentication for the Source:
 ModernAuthClientIdExport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
