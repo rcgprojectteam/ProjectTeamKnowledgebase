@@ -4,6 +4,7 @@ Overview:  This document describes how to connect BitTitan MigrationWiz email mi
 ## Prerequisites:
 - Create a user account 'migration@clientdomain.com'. This account must have a long complex password as we will be creating a conditional policy to shut off MFA enforcement for the account. This account also needs global administrative rights in the tenant.
 - Tenant must have a Microsoft Entra ID P2 license or equivalent to be able to create conditional access policies.  
+- Prepared mailbox list in csv text file, latest exchange online PowerShell module.
 
 # Mailbox Impersonation
 **Objective:** We will create a Mail-enabled security group in the Exchange Admin Center webui in part 1.  We will add one owner (tenant admin) to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to the user mailboxes.
@@ -23,7 +24,7 @@ Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled securi
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
 
 ## 2. PowerShell preparation - Scoped Impersonation with EWS. (Part 2)
-Prerequisites: Prepared mailbox list in csv text file, latest exchange online PowerShell module.
+Location: Local user workstation - PowerShell with elevated rights.
 
 1. Connect to Exchange online with tenant admin creds:
 ```Powershell
