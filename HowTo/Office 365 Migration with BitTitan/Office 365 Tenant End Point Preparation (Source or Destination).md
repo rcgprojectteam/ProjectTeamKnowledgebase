@@ -1,12 +1,12 @@
 #BitTitan #migration #o365 #Office365
-Overview:  This document describes how to connect BitTitan MigrationWiz email migration tools to Microsoft Office 365 using modern authentication.
+Overview:  This document describes how to connect BitTitan MigrationWiz email migration tools to Microsoft Office 365 using modern authentication. We will be using an tenant admin account to make changes to the tenant.
 
 ## Prerequisites:
-- User account 'migration@clientdomain.com' account must have long complex password as we will be creating a conditional policy to shut off MFA enforcement for the account.
+- Create a user account 'migration@clientdomain.com'. This account must have a long complex password as we will be creating a conditional policy to shut off MFA enforcement for the account. This account also needs global administrative rights in the tenant.
 - Tenant must have a Microsoft Entra ID P2 license or equivalent to be able to create conditional access policies.  
 
 # Mailbox Impersonation
-**Objective:** We will create a Mail-enabled security group in the Exchange Admin Center webui in part 1.  We will add one owner (tenant admin) to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to their mailboxes.
+**Objective:** We will create a Mail-enabled security group in the Exchange Admin Center webui in part 1.  We will add one owner (tenant admin) to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to the user mailboxes.
 
 ## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
 Location: Office365/Exchange Admin Center//Recipients/Groups/Mail-enabled security.
