@@ -96,7 +96,7 @@ Prerequisite: Tenant must have a Microsoft Entra ID P2 license or equivalent - t
 
 **USE CAUTION - YOU HAVE BEEN WARNED!**
 
-**Objective:** We will create a new conditional access policy.  We will include or exclude users from that policy. We will Grant control access to enforce multifactor authentication. 
+**Objective:** We will create a new conditional access policy.  We will include or exclude users from that policy. We will Grant control access to enforce multifactor authentication.  Conditional access policies have three modes - Report Only, On and Off. 
 
 Conditional AccessPolicy Setup:
 1. Select 'Create New Policy'
