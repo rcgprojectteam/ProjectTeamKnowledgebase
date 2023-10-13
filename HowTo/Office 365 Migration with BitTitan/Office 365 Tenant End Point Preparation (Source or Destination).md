@@ -10,7 +10,7 @@ Overview:  This document describes how to connect BitTitan MigrationWiz email mi
 **Objective:** We will create a Mail-enabled security group in the Exchange Admin Center webui in part 1.  We will add one owner (tenant admin) to the group.  In part 2 we will create a new management scope a new management roll in PowerShell.  The new management roll will get the ApplicationImpersonation roll and the management roll will then be added to the management scope. We will then use a CSV file with all the users email addresses to grant migration@clientdomain.com access to the user mailboxes.
 
 ## 1. Web UI preparation - Scoped Impersonation with EWS. (Part 1)
-Location: Office365/Exchange Admin Center/Recipients/Groups/Mail-enabled security.
+**Location: Office365\Exchange Admin Center\Recipients\Groups\Mail-enabled security.**
 
 1. Click 'Add Group'
 2. Select 'Mail-enabled security' select next.
@@ -24,7 +24,7 @@ Location: Office365/Exchange Admin Center/Recipients/Groups/Mail-enabled securit
 10. Go to settings and under general settings select 'Hide this group from the global address list.' then Select Save.
 
 ## 2. PowerShell preparation - Scoped Impersonation with EWS. (Part 2)
-Location: Local user workstation - PowerShell with elevated rights.
+**Location: Local user workstation - PowerShell with elevated rights.**
 
 1. Connect to Exchange online with tenant admin creds:
 ```Powershell
@@ -74,7 +74,7 @@ Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Ide
 > - The **Azure Security Defaults** must also be disabled in the tenant. (This is often enabled by default for all new Exchange Online tenants and there is **no** workaround for this requirement).
 
 ## Disable Azure Security Defaults
-Location: Office365\Microsoft Entra Admin Center\Overview\
+**Location: Office365\Microsoft Entra Admin Center\Overview**
 **Objective:** We will log into the Office 365 tenant then access Entra Admin center. We will disable Azure Security defaults for the tenant.
 
 Disable Azure Security Defaults:
@@ -112,7 +112,7 @@ Conditional AccessPolicy Setup:
 
 
 ## API Application Registration
-Location: Office365\Microsoft Entra Admin Center\Applications\App Registrations\
+**Location: Office365\Microsoft Entra Admin Center\Applications\App Registrations**
 
 **Objective:** we will log into Office 365 then access the Entra Admin center.  We will create a new Application registration. We will then add API permission for Office 365 Exchange Online with delegated permissions to EWS. We will then grant Admin consent to the API.  This application registration allows BitTitan to access the Office365 tenant.  Once the Application registration is complete we will move over to the BitTitan Web Interface and add the ModernAuth Keys to the migration project's advanced properties.
 
@@ -149,7 +149,7 @@ API Application Registration
 ![[azureAppReg7.png]]
 24. Select 'Advanced Options'
 ![[azureAppReg8.png]]
-25. Under support options you will add fields. Use the Application (Client) ID and Directory (tenant) ID you copied into your notepad on step 9.
+25. Under support options you will add fields. Use the Application (Client) ID and Directory (tenant) ID you copied into your notepad on step 9. Pay VERY careful attention to the Source and Destination!
 ```
 If enabling Modern Authentication for the Source:
 ModernAuthClientIdExport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
@@ -162,8 +162,6 @@ ModernAuthTenantIdImport=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
 26. Save the changes.
 ![[azureAppReg9.png]]
-
-
 ### References:
 [Modern Authentication Requirements](https://help.bittitan.com/hc/en-us/articles/360049370794-G-Suite-Gmail-API-to-Exchange-Online-Microsoft-365-Migration-Guide#h_01HAMWZ83J32EESZB1YMYCP07E)
 [Common Errors Encountered in MigrationWiz while using Modern Authentication for EWS](https://help.bittitan.com/hc/en-us/articles/14019211860251-Most-Common-Errors-Encountered-in-MigrationWiz-while-using-Modern-Authentication-for-EWS-in-Exchange-Online#aadsts50020-0-1)
