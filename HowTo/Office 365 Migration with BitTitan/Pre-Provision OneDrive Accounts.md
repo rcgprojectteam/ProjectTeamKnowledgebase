@@ -1,7 +1,7 @@
 #onedrive #o365 #Scripts #powershell
 
 
-csv template:
+CSV Template:
 ```
 user1@contoso.com
 user2@contoso.com
@@ -10,7 +10,7 @@ user3@contoso.com
 
 Powershell Syntax: 
 ```
-$users = Get-Content -path "C:\temp\users.txt" Request-SPOPersonalSite -UserEmails $users
+$users = Get-Content -path "C:\temp\users.csv" Request-SPOPersonalSite -UserEmails $users
 ```
 
 ##References:
