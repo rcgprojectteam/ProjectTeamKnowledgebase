@@ -58,9 +58,44 @@ New-ManagementRoleAssignment -Name "O365MigrationProject" -Role "ApplicationImpe
 ```
 Example:
 ![[migration-managementrole.png]]
-8. Bulk add users to the mail-enabled security group:
+8. Use ISE to add users to the mail-enabled security group:
+CSV template
 ```
-Import-Csv “C:\temp\listname.csv” | foreach{Add-DistributionGroupMember -Identity “GroupName” -Member $_.alias}
+UserPrincipalName
+user1@clientdomain.com
+user2@clientdomain.com
+user3@
+```
+
+
+```
+#Specify your mail-enabled security group
+$GroupId = "migration"
+  
+#Read group members from CSV file
+$CSVRecords = Import-CSV "C:\Temp\SENBusers.csv"
+$TotalMembers = $CSVRecords.Count
+$i = 0
+  
+#Iterate members one by one and add to the group
+ForEach($CSVRecord  in $CSVRecords)
+{
+$User = $CSVRecord."UserPrincipalName"
+ 
+$i++;
+Write-Progress -Activity "Adding member $User" -Status "$i out of $TotalMembers members completed"
+ 
+Try
+{
+#Add member to the group
+Add-DistributionGroupMember -Identity $GroupId -Member $User -ErrorAction Stop
+}
+catch
+{
+Write-Host "Error occurred for $User" -f Yellow
+Write-Host $_ -f Red
+}
+}
 ```
 **TO BE UPDATED WITH EXAMPLE!**
 
