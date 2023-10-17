@@ -10,6 +10,7 @@ user3@contoso.com
 
 Powershell Syntax: 
 ```
+Connect-SPOService -Url https://contoso-admin.sharepoint.com
 $users = Get-Content -path "C:\temp\users.csv" Request-SPOPersonalSite -UserEmails $users
 ```
 
