@@ -1,6 +1,5 @@
 #onedrive #o365 #Scripts #powershell
 
-
 CSV Template:
 ```
 user1@contoso.com
