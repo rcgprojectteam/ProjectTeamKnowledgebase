@@ -82,6 +82,7 @@ write memory
 Other Commands
 ===========
 management-vlan 1031
+copy usb flash J9850A/KB_16_11_0014.swi primary
 copy tftp flash <TFTP-IP> <filename> secondary
 boot system flash secondary
 copy flash flash primary
