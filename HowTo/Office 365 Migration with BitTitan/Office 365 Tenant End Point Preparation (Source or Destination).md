@@ -58,22 +58,21 @@ New-ManagementRoleAssignment -Name "O365MigrationProject" -Role "ApplicationImpe
 ```
 Example:
 ![[migration-managementrole.png]]
-8. Use ISE to add users to the mail-enabled security group:
-CSV template
+8. Use ISE to add users to the mail-enabled security group, connect PowerShell to exchange online:
+CSV template:
 ```
 UserPrincipalName
 user1@clientdomain.com
 user2@clientdomain.com
-user3@
+user3@clientdomain.com
 ```
-
-
+ISE Script Template:
 ```
 #Specify your mail-enabled security group
 $GroupId = "migration"
   
 #Read group members from CSV file
-$CSVRecords = Import-CSV "C:\Temp\SENBusers.csv"
+$CSVRecords = Import-CSV "C:\Temp\users.csv"
 $TotalMembers = $CSVRecords.Count
 $i = 0
   
@@ -81,10 +80,8 @@ $i = 0
 ForEach($CSVRecord  in $CSVRecords)
 {
 $User = $CSVRecord."UserPrincipalName"
- 
 $i++;
 Write-Progress -Activity "Adding member $User" -Status "$i out of $TotalMembers members completed"
- 
 Try
 {
 #Add member to the group
@@ -97,7 +94,6 @@ Write-Host $_ -f Red
 }
 }
 ```
-**TO BE UPDATED WITH EXAMPLE!**
 
 ### References:
 [MigrationWiz Impersonation and Delegation for Microsoft 365 & Exchange Migrations](https://help.bittitan.com/hc/en-us/articles/115015661147-MigrationWiz-Impersonation-and-Delegation-for-Microsoft-365-Exchange-Migrations#create-a-management-scope-0-1)
