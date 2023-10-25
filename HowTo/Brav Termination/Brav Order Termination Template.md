@@ -1,7 +1,7 @@
 #Brav #Termination #makeBravGoAway #emailTemplate 
 
 
-To: AccountingNotify@continuum.net
+To: PartnerCare@connectwise.com and recover@connectwise.com
 
 
 Subject: Brav Order Termination: 
