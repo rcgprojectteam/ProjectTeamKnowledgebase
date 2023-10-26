@@ -1,4 +1,4 @@
-#knowledgebase  _Your tags #HyperV #Replication
+#knowledgebase #HyperV #Replication
 
 # Document Description
 HyperV Guests are created with a dynamic MAC address by default. This is fine if you are not replicating the VM. If you are replicating the VM to another host, then it is recommended to set the MAC address to static so there are not issues with DHCP reservations or apps that require static MAC addressing
