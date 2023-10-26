@@ -28,8 +28,6 @@
 #### UniFi Switches (not Ubiquiti EdgeSwitches)
 > - No real ability to specifically and selectively mark traffic
 
-
-
 ## Sonicwall Bandwidth Management 
 
 Overview:
