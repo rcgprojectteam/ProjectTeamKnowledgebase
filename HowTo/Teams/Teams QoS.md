@@ -29,6 +29,7 @@
 > - No real ability to specifically and selectively mark traffic
 
 ## Sonicwall Bandwidth Management 
+This creates rules to trigger on Teams Voice Softphone traffic.  Prioritizing handsets would require another access rule+BW shaping using zones VoIP -> WAN
 
 Overview:
 Create Service objects as follows:
