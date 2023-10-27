@@ -1,6 +1,7 @@
 Presumes that the UPN list includes the new domain suffix
 # Edit below as appropriate to the client
 
+```
 $newDomain1 = "empoweringabilities.org"
 #$newDomain2 = "empoweringabilitiesqc.org"
 $smtp = "smtp:"
@@ -18,3 +19,4 @@ forEach ($user in $users) {
     
    Set-ADUser -Instance $User
 }
+```
