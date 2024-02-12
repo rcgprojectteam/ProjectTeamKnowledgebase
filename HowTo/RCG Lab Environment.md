@@ -4,12 +4,12 @@ Windows Server 2019 Datacenter
 "c:\\iso" has many OS install images
 
 
-
 **iLO**:  192.168.10.5 (Static); port 9 basement Switch (192.168.10.4)
 	administrator / Q27MJFPW
 **MGMT**: 192.168.10.6 (Static); port 10 basement Switch (192.168.10.4)
 	administrator / 1Happiness-Dumping
 **HyperV vSwitch** - LACP Trunk; port trk1 (13,14,15) basement Switch (192.168.1.4)
+**TailScale**: The machine is on the 'security@go2rcg.com' TailNet and advertises as an exit node.
 
 **LAN and vLAN:**
 VM-Private: Private LAN, no network connectivity
