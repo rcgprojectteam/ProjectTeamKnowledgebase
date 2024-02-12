@@ -1,6 +1,9 @@
 **HP DL380 Gen 9**
 Windows Server 2019 Datacenter
 *As of 2/12/2024 the Connectwise agent will not install (located in c:\iso)*
+"c:\\iso" has many OS install images
+
+
 
 **iLO**:  192.168.10.5 (Static); port 9 basement Switch (192.168.10.4)
 	administrator / Q27MJFPW
@@ -23,3 +26,5 @@ DNS: 208.67.220.220, 9.9.9.9, 1.1.1.1
 rcg-hvlab-dc (VM): DHCP on VLAN 550
 	administrator / 1HappinessDumping
 	RDP Enabled
+	No roles installed
+	Fully patched as of 2/12/2024
