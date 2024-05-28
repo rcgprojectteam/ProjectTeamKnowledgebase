@@ -28,3 +28,5 @@ rcg-hvlab-dc (VM): DHCP on VLAN 550
 	RDP Enabled
 	No roles installed
 	Fully patched as of 2/12/2024
+RCG-LabPC:
+		user / Cannon2-Cognition
