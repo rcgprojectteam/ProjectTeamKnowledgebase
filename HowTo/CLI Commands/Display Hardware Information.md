@@ -22,4 +22,11 @@ wmic cpu get name
 # - All System Information
 
 systeminfo
+
+# - Get serial number
+wmic bios get serialnumber
+
+# - Get model number
+wmic computersystem get model
+
 ```
